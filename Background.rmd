@@ -1,1 +1,2 @@
-Hello this is a test to see how I can write
+Hello
+this is a test to see how I can write on atom to do markdown files!
