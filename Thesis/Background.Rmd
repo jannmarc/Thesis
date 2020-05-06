@@ -37,7 +37,7 @@ Make sure to add white space between lines if you'd like to start a new paragrap
 Here is the first sentence.  Here is another sentence.  Here is the last sentence to end the paragraph.
 This should be a new paragraph.
 
-*Now for the correct way:* 
+*Now for the correct way:*
 
 Here is the first sentence.  Here is another sentence.  Here is the last sentence to end the paragraph.
 
@@ -55,7 +55,7 @@ summary(cars)
 
 If you'd like to put the results of your analysis directly into your discussion, add inline code like this:
 
-> The `cos` of $2 \pi$ is `r cos(2*pi)`. 
+> The `cos` of $2 \pi$ is `r cos(2*pi)`.
 
 Another example would be the direct calculation of the standard deviation:
 
@@ -126,15 +126,15 @@ library(huskydown)
 
 The example we show here does the following:
 
-- Selects only the `carrier_name` and `arr_delay` from the `flights` dataset and then assigns this subset to a new variable called `flights2`. 
+- Selects only the `carrier_name` and `arr_delay` from the `flights` dataset and then assigns this subset to a new variable called `flights2`.
 
 - Using `flights2`, we determine the largest arrival delay for each of the carriers.
 
 ```{r max_delays}
 library(dplyr)
-flights2 <- flights %>% 
+flights2 <- flights %>%
   select(carrier_name, arr_delay)
-max_delays <- flights2 %>% 
+max_delays <- flights2 %>%
   group_by(carrier_name) %>%
   summarize(max_arr_delay = max(arr_delay, na.rm = TRUE))
 ```
@@ -143,7 +143,7 @@ A useful function in the `knitr` package for making nice tables in _R Markdown_ 
 
 ```{r maxdelays, results="asis"}
 library(knitr)
-kable(max_delays, 
+kable(max_delays,
       col.names = c("Airline", "Max Arrival Delay"),
       caption = "Maximum Delays by Airline",
       caption.short = "Max Delays by Airline",
@@ -157,10 +157,10 @@ We can further look into the properties of the largest value here for American A
 
 
 ```{r max_props}
-flights %>% 
-  filter(arr_delay == 1539, 
+flights %>%
+  filter(arr_delay == 1539,
          carrier_name == "American Airlines Inc.") %>%
-  select(-c(month, day, carrier, dest_name, hour, 
+  select(-c(month, day, carrier, dest_name, hour,
             minute, carrier_name, arr_delay))
 ```
 
@@ -168,10 +168,10 @@ We see that the flight occurred on March 3rd and departed a little after 2 PM on
 
 ```{r march3plot, fig.height=3, fig.width=6}
 library(ggplot2)
-flights %>% 
+flights %>%
   filter(month == 3, day == 3) %>%
-  ggplot(aes(x = dep_time, 
-             y = arr_delay)) + 
+  ggplot(aes(x = dep_time,
+             y = arr_delay)) +
   geom_point()
 ```
 
