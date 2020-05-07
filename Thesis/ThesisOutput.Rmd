@@ -1,10 +1,10 @@
 ---
 # UW thesis fields
-title: "My thesis title - edit in index.Rmd"
-author: "My Name"
-year: "2017"
-program: "My Department"
-chair: "Name of my committee chair"
+title: "Diabetes and Public Housing  - edit in index.Rmd"
+author: "Marc Macarulay"
+year: "2020"
+program: "Health Services"
+chair: "Clarence Spigner"
 chairtitle: "Title of my chair"
 signature1: "person 1"
 signature2: "person 2"
@@ -18,8 +18,8 @@ dedication: |
 # End of UW thesis fields
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
-output: 
-  huskydown::thesis_pdf: 
+output:
+  huskydown::thesis_pdf:
     latex_engine: xelatex
 #  huskydown::thesis_gitbook: default
 #  huskydown::thesis_word: default
