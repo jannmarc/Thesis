@@ -23,7 +23,7 @@ output:
 #  huskydown::thesis_epub: default
 bibliography: bib/Mendeley.bib
 # Download your specific bibliography database file and refer to it in the line above.
-csl: csl/apa.csl
+csl: uwthesis.csl
 # Download your specific csl file and refer to it in the line above.
 lot: true
 lof: true
