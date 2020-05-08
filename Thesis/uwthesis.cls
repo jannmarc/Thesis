@@ -654,7 +654,8 @@
 \def\Signature#1{
   \global\@namedef{S:\expandafter\the\@Sign}{#1}
   \global\advance\@Sign by1}
-
+  
+\newpage
 \def\copyrightpage{                   % Prints the copyright page
     \vspace{7pc}
     \begin{center}
