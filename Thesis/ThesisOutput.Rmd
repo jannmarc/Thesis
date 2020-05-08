@@ -1,14 +1,13 @@
 ---
 # UW thesis fields
-title: "Diabetes and Public Housing  - edit in index.Rmd"
+title: "Diabetes and Public Housing"
 author: "Marc Macarulay"
 year: "2020"
 program: "Health Services"
 chair: "Clarence Spigner"
 chairtitle: "Title of my chair"
-signature1: "person 1"
-signature2: "person 2"
-signature3: "person 3"
+Committee : "Alastair Matheson"
+
 abstract: |
   "Here is my abstract"
 acknowledgments: |
