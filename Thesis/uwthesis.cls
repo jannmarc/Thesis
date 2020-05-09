@@ -635,7 +635,7 @@
        \Programtext{Program Authorized to Offer Degree: }
 
 \def\textofCommittee#1{\gdef\@textofCommittee{#1}}
-       \textofCommittee{Committee:Clarence Spigner \\Alastair Matheson }
+       \textofCommittee{Committee:\\Clarence Spigner \\Alastair Matheson }
 \def\textofDate#1{\gdef\@textofDate{#1}}  \textofDate{Date}
 
 \def\textofChair#1{\gdef\@textofChair{#1}}
@@ -691,7 +691,7 @@
       \count1=0
       \@whilenum \count1<\@Chair \do
        {\vskip12\p@ \baselineskip12pt
-        \csname C:\the\count1\endcsname, Chair
+        \csname C:\the\count1\endcsname
         \advance\count1 by1}
       \count1=0
       \@whilenum \count1<\@Sign \do
