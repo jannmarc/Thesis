@@ -4,9 +4,9 @@ title: "Diabetes and Public Housing"
 author: "Marc Macarulay"
 year: "2020"
 program: "Health Services"
-chair: "Clarence Spigner"
+chair: 
 chairtitle: 
-Committee : "Alastair Matheson"
+Committee : 
 
 abstract: |
   "Here is my abstract"
