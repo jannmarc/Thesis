@@ -624,22 +624,22 @@
 \def\Title#1{\gdef\@Title{#1}}
 \def\Author#1{\gdef\@Author{#1}}
 \def\Year#1{\gdef\@Year{#1}}  \Year{\year}
-\def\Degree#1{\gdef\@Degree{#1}} \Degree{Doctor of Philosophy}
-\def\Program#1{\gdef\@Program{#1}} \Program{your program here}
+\def\Degree#1{\gdef\@Degree{#1}} \Degree{Master of Public Health}
+\def\Program#1{\gdef\@Program{#1}} \Program{Health Services}
 %
 \def\School#1{\gdef\@School{#1}} \School{University of Washington}
 \def\GSchool#1{\gdef\@GSchool{#1}} \GSchool{Graduate School}
 \def\Degreetext#1{\gdef\@Degreetext{#1}}
-  \Degreetext{A dissertation\\ submitted in partial fulfillment of the\\requirements for the degree of}
+  \Degreetext{A thesis\\ submitted in partial fulfillment of the\\requirements for the degree of}
 \def\Programtext#1{\gdef\@Programtext{#1}}
        \Programtext{Program Authorized to Offer Degree: }
 
 \def\textofCommittee#1{\gdef\@textofCommittee{#1}}
-       \textofCommittee{Reading Committee: }
+       \textofCommittee{Committee: }
 \def\textofDate#1{\gdef\@textofDate{#1}}  \textofDate{Date}
 
 \def\textofChair#1{\gdef\@textofChair{#1}}
-       \textofChair{Chair of the Supervisory Committee: }
+       \textofChair{Chair of the Supervisory Committee: Clarence Spigner }
 
 \newcount\@Chair \@Chair0
 \def\Chair#1#2#3{
