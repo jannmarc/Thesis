@@ -5,7 +5,7 @@ author: "Marc Macarulay"
 year: "2020"
 program: "Health Services"
 chair: "Clarence Spigner"
-chairtitle: "Title of my chair"
+chairtitle: 
 Committee : "Alastair Matheson"
 
 abstract: |
