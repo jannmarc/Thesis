@@ -655,7 +655,7 @@
   \global\@namedef{S:\expandafter\the\@Sign}{#1}
   \global\advance\@Sign by1}
   
-\pagebreak[1]
+
 
 \def\copyrightpage{                   % Prints the copyright page
     \vspace{7pc}
