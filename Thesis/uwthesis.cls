@@ -624,13 +624,13 @@
 \def\Title#1{\gdef\@Title{#1}}
 \def\Author#1{\gdef\@Author{#1}}
 \def\Year#1{\gdef\@Year{#1}}  \Year{\year}
-\def\Degree#1{\gdef\@Degree{#1}} \Degree{Master of Public Health}
-\def\Program#1{\gdef\@Program{#1}} \Program{Health Services}
+\def\Degree#1{\gdef\@Degree{#1}} \Degree{Doctor of Philosophy}
+\def\Program#1{\gdef\@Program{#1}} \Program{your program here}
 %
 \def\School#1{\gdef\@School{#1}} \School{University of Washington}
 \def\GSchool#1{\gdef\@GSchool{#1}} \GSchool{Graduate School}
 \def\Degreetext#1{\gdef\@Degreetext{#1}}
-  \Degreetext{A Theis\\ submitted in partial fulfillment of the\\requirements for the degree of}
+  \Degreetext{A dissertation\\ submitted in partial fulfillment of the\\requirements for the degree of}
 \def\Programtext#1{\gdef\@Programtext{#1}}
        \Programtext{Program Authorized to Offer Degree: }
 
@@ -654,8 +654,6 @@
 \def\Signature#1{
   \global\@namedef{S:\expandafter\the\@Sign}{#1}
   \global\advance\@Sign by1}
-  
-
 
 \def\copyrightpage{                   % Prints the copyright page
     \vspace{7pc}
@@ -925,3 +923,5 @@
 \setmainfont[Numbers=OldStyle, Contextuals=Alternate, Ligatures={Common}]{EB Garamond}
 \setsansfont[Scale=MatchLowercase, BoldFont={Lato Bold}]{Lato Regular}
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
+
+
