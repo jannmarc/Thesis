@@ -635,7 +635,7 @@
        \Programtext{Program Authorized to Offer Degree: }
 
 \def\textofCommittee#1{\gdef\@textofCommittee{#1}}
-       \textofCommittee{Committee:\\Clarence Spigner \\Alastair Matheson }
+       \textofCommittee{Committee:\\Clarence Spigner, Chair \\Alastair Matheson }
 \def\textofDate#1{\gdef\@textofDate{#1}}  \textofDate{Date}
 
 \def\textofChair#1{\gdef\@textofChair{#1}}
