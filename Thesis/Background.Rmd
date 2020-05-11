@@ -1,19 +1,14 @@
 <!--
 The {#rmd-basics} text after the chapter declaration will allow us to link throughout the document back to the beginning of Chapter 1.  These labels will automatically be generated (if not specified) by changing the spaces to hyphens and capital letters to lowercase.  Look for the reference to this label at the beginning of Chapter 2.
 -->
-
-
 # Background and Significance {#rmd-basics}
 
+## Problem Defintion
+Diabetes is a chronic disease that is characterized by an inability of the body to maintain a healthy blood glucose level, this can cause a variety of symptoms that affect multiple systems in the body and can lead to potentially life-threatening complications.The key regulator hormone of glucose is insulin and it is produced in the pancreas. The absence or malfunction of insulin leads to elevated blood glucose levels called hyperglycemia. When insulin hormone is missing or ineffective the disease is called Diabetes Mellitus, this condition has multiple types.
 
-## Problem defintion
-Diabetes is a chronic disease that is characterized by an inability of the body to maintain a healthy blood glucose level, this can cause a variety of symptoms that affect multiple systems in the body and can lead to potentially life-threatening complications. Insulin is produced in the pancreas and is the key regulatory hormone of glucose. The absence or malfunction of insulin leads to elevated blood glucose levels called hyperglycemia. When insulin hormone is missing or ineffective the disease condition is called Diabetes Mellitus and has multiple types.
+### Diabetes Variants
 
-### Type 1 Diabetes
-
-Type 1 diabetes is a loss of insulin caused by the destruction of cells in the pancreas at the hands of the body's own immune system. The life-long condition is typically diagnosed relatively early in life, and is treated by monitoring sugar levels, adjusting diet, and maintaining insulin levels through regular injections
-
-### Type 2 Diabetes
+The most common diabetes variants include type I diabetes mellitus, type II diabetes mellitus, and gestational diabetes. Type I diabetes is usually caused by genetic factors triggering an autoimmune reaction that results in the destruction of insulin producing cells in the pancreas. Also known as Juvenile Diabetes, the type I classification is typically diagnosed relatively early in life during childhood or early adulthood. Whereas, Type II diabetes develops when the body can still produce insulin however the amount is insuffient or when the body becomes resistant to the effects of insulin. Type II diabetes is largely attributed to lifestyle factors including obesity and physical activity levels.   
 
 
 
