@@ -21,7 +21,7 @@ output:
 #  huskydown::thesis_gitbook: default
 #  huskydown::thesis_word: default
 #  huskydown::thesis_epub: default
-bibliography: bib/Mendeley.bib
+bibliography: bib/M.bib
 # Download your specific bibliography database file and refer to it in the line above.
 csl: csl/apa.csl
 # Download your specific csl file and refer to it in the line above.
