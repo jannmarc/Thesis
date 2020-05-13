@@ -278,7 +278,7 @@ MathJax.Hub.Config({
 ## Study Setting and Study Design
 
 
-The current study is an analysis of a dataset compiled from the King County _Data Across Sectors for Housing and Health (DASHH)_ partnership. The primary objectives for DASHH were to use the joined health and housing administrative data to inform and measure future interventions, relating to policy, outreach, and programming that would improve the health of King County residents, as well as to disseminate actionable data with key health and housing stakeholders. The initial findings from this study have previously been reported [@techreport].
+The current study is an analysis of a dataset compiled from the King County _Data Across Sectors for Housing and Health (DASHH)_ partnership. The primary objectives for DASHH were to use the joined health and housing administrative data to inform and measure future interventions, relating to policy, outreach, and programming that would improve the health of King County residents, as well as to disseminate actionable data with key health and housing stakeholders. The initial findings from this study have previously been reported [@PublicHealth-Seattle&KingCounty2018].
 
 
 ## Data Sources
