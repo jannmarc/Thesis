@@ -9,8 +9,30 @@ MathJax.Hub.Config({
 
 ## Study Setting and Study Design
 
+The current study investigates whether public housing is asociated with risk of diabetes status among King County, WA residents who were enrolled in Medicare and Medicaid. This study uses a descriptive cross-sectional design. The cross-sectional design is appropriate because it allows for an estimate of a dichotomous disease outcome at a particular point in time [@greenland].
 
-The current study is an analysis of a dataset compiled from the King County _Data Across Sectors for Housing and Health (DASHH)_ partnership. The primary objectives for DASHH were to use the joined health and housing administrative data to inform and measure future interventions, relating to policy, outreach, and programming that would improve the health of King County residents, as well as to disseminate actionable data with key health and housing stakeholders. The initial findings from this study have previously been reported [@PublicHealth-SeattleandKingCounty2018].
-
+The analysis of this study was conducted on a dataset compiled from the King County _Data Across Sectors for Housing and Health (DASHH)_ partnership. The findings from the original initial study have previously been reported [@PublicHealth-SeattleandKingCounty2018].
 
 ## Data Sources
+
+In an effort to reduce fragmented data siloes across different sectors, the DASHH partnership was formed in 2016 between Public Health - Seattle and King County (PHSKC), and two public housing authories, King County Housing Authority (KCHA) and Seattle Housing Authority (SHA). The primary objectives for DASHH were to join health and housing administrative data together to inform and measure future interventions, relating to policy, outreach, and program evaluation that would improve the health of King County residents, as well as to disseminate actionable data with key health and housing stakeholders.
+
+The housing data provided by both KCHA and SHA originated from the US Department of Housing and Urban Development (HUD). This data source contained elements that included demographic information and period of enrollment for families and individuals. Claims and enrollment for Medicaid and Medicare data were from Washington Health Care Authority (HCA) which was provided to PHSKC. Enrollment data contained information on who was recieving Medicaid and Medicare benefits. Claims data provided elements such as diagnosis codes that were used to identify acute events and chronic conditions. All these data sources were linked together by a unique identifier ID.
+
+## Study Population
+
+The study population were participants that were enrolled in either Medicare or Medicaid programs in 2017. Further  eligibility for study participation included King County, Washington residency and at least 11 months of Medicare or Medicaid coverage in 2017. The overall number of participants derived from the DASHH dataset totalled 585,372.
+
+### Exposure Variable
+
+The exposure variable for this study was public housing authority status. Extracted from the HUD
+### Outcome Variable
+
+The outcome variable for this study was diabetes staus. This study used the Chonic Conditions warehouse (CCW) definition of diabetes
+### Potenetial Effect Modifiers and Confounders
+
+## Analyses
+
+### Descriptive Analyses
+
+### Statistical Analyses
