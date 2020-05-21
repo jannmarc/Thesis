@@ -9,6 +9,7 @@ If you feel it necessary to include an appendix, it goes here.
 library(dplyr)
 library(magrittr)
 library(knitr)
+library(kableExtra)
 ```
 
 
