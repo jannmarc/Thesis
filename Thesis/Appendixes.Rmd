@@ -21,9 +21,8 @@ table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 # The First Appendix
 ```{r}
 options(knitr.kable.NA = '')
-knitr::kable(table1, caption= "Table 1. Population Demographics")%>%
-  kableExtra::kable_styling(latex_options = c("striped", "hold_position"),
-                full_width = F)
+table1%>%
+knitr::kable(format = "latex", caption= "Population Demographics")
 ```
 
 
