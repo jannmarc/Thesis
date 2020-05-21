@@ -639,7 +639,7 @@ participants derived from the DASHH dataset totaled 585,372.
 
 \subsection{Exposure Variable}\label{exposure-variable}
 
-The exposure variable for this study was public housing authority (PHA)
+The exposure variable for this study was public housing assistance
 status. This was extracted from the HUD-50058 form which was provided by
 the PHAs. The HUD-50058 form provides information on families that
 participate in public housing or Section 8 rental subsidy programs
@@ -678,25 +678,43 @@ were coded as 1 for diabetes status.
 
 \subsection{Potenetial Confounders}\label{potenetial-confounders}
 
-This study considers age, race and ethnicity and gender as potential
-confounding variables for diabetes status. Each of these variables were
-selected due to the increased baseline risk for partipants to be either
-in public housing or have diabetes. It is known that diabetes is an
-age-related disease, with a higher risk for older populations (Selvin \&
-Parrinello, 2013). Age was presented as a discrete variable given the
-partipants age in 2017. Similarly, according to CDC data, racial
-minority groups may be differentially at risk for both type 1 and type 2
-diabetes compared to their white counterparts (Divers et al., 2020 \&
-CDC (2020)). Race and ethnicity variable was defined categorically and
-included: American Indians/Alaska Natives, Asian, Asian Pacific
-Islander, Black/African American, Latino, Multiple, Native Hawaiian and
-Pacific Islander, Other, Unknown, and White. Finally, gender was
-selected because both psychosocial and biological factors are
-responsible for sex and gender diabetes risk differences
-(Kautzky-Willer, Harreiter, \& Pacini, 2016). Gender was grouped
-categorically and included: Female, Male, Multiple and Unknown.
+Potential confounders were identified based on literature review. This
+study considers age, race and ethnicity and gender as potential
+confounding variables. Each of these variables were selected due to the
+increased baseline risk for partipants to be either in public housing or
+have diabetes. It is known that diabetes is an age-related disease, with
+a higher risk for older populations (Selvin \& Parrinello, 2013). Age
+was presented as a discrete variable for the partipants age in 2017.
+Similarly, according to CDC data, racial minority groups may be
+differentially at risk for both type 1 and type 2 diabetes compared to
+their white counterparts (Divers et al., 2020 \& CDC (2020)). Race and
+ethnicity variable was defined categorically and included: American
+Indians/Alaska Natives, Asian, Asian Pacific Islander, Black/African
+American, Latino, Multiple, Native Hawaiian and Pacific Islander, Other,
+Unknown, and White. Finally, gender was selected because both
+psychosocial and biological factors are responsible for sex and gender
+diabetes risk differences (Kautzky-Willer, Harreiter, \& Pacini, 2016).
+Gender was grouped categorically and included: Female, Male, Multiple
+and Unknown.
 
 \section{Analyses}\label{analyses}
+
+As is common in epidemiological and health services research,
+demographic characteristics were presented to describe the population
+distribition ({\textbf{???}}). Descriptive analyses were first used to
+list the count and percentages for each of the demographic categorical
+variables. (See table 1). The demographics table is arranged by PHA
+status, this included: KCHA, SHA, combined PHA and non-PHA. Although the
+discrete variable for age was used in the statistical analyses age was
+reported in categorically in the descriptive analyses for a simpler
+layout.
+
+For the statistical analyses, logistic regression models were fitted to
+assess the risk of diabetes status in relation to public housing
+assistance status. This is appropriate for this study because logistic
+reregression analyses allows for analyzing the association of an effect
+to a binomial response variable by combining multiple variables to avoid
+confounding ({\textbf{???}}).
 
 \hypertarget{ref-labels}{\chapter{Tables, Graphics, References, and
 Labels}\label{ref-labels}}
@@ -1108,7 +1126,7 @@ been organised into an R package, xxx, which is available at
 \url{https://github.com/xxx/xxx}. A hard copy of the thesis can be found
 in the University of Washington library.
 
-This version of the thesis was generated on 2020-05-18 19:05:59. The
+This version of the thesis was generated on 2020-05-19 00:15:21. The
 repository is currently at this commit:
 
 The computational environment that was used to generate this version is
@@ -1124,7 +1142,7 @@ as follows:
  collate  English_United States.1252  
  ctype    English_United States.1252  
  tz       America/Los_Angeles         
- date     2020-05-18                  
+ date     2020-05-19                  
 
 - Packages -------------------------------------------------------------------
  package     * version date       lib source                               
