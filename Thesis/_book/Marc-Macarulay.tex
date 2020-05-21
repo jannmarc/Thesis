@@ -476,78 +476,50 @@ obvious after a chapter or section title, proper typesetting doesn't add
 an indent there.
 
 \appendix
-
-\chapter{The First Appendix}\label{the-first-appendix}
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{options}\NormalTok{(}\DataTypeTok{knitr.kable.NA =} \StringTok{''}\NormalTok{)}
-\NormalTok{table1}\OperatorTok{%>%}
-\NormalTok{knitr}\OperatorTok{::}\KeywordTok{kable}\NormalTok{(}\DataTypeTok{format =} \StringTok{"latex"}\NormalTok{, }\DataTypeTok{caption=} \StringTok{"Population Demographics"}\NormalTok{)}
-\end{Highlighting}
-\end{Shaded}
+\begin{verbatim}
+Warning: Missing column names filled in: 'X1' [1]
+\end{verbatim}
+\chapter{Appendix}\label{appendix}
 \begin{table}
 
 \caption{\label{tab:unnamed-chunk-2}Population Demographics}
 \centering
-\begin{tabular}[t]{l|l|l|l|l}
-\hline
-Characteristics & KCHA & SHA & Combined PHA & Non-PHA\\
-\hline
- & N=34,514 (5.9\%) & N=27,044  (4.6\%) & N=60,919  (10.4\%) & N=523,814 (89.5\%)\\
-\hline
-Age &  &  &  & \\
-\hline
-<5 & 6.60\% & 6.10\% & 6.40\% & 5.50\%\\
-\hline
-5-9 & 12.00\% & 10.20\% & 11.20\% & 7.00\%\\
-\hline
-10-17 & 19.50\% & 14.90\% & 17.50\% & 9.80\%\\
-\hline
-18-29 & 12.50\% & 9.90\% & 11.30\% & 8.30\%\\
-\hline
-30-49 & 21.00\% & 19.30\% & 20.30\% & 11.20\%\\
-\hline
-50-64 & 15.30\% & 19.90\% & 17.40\% & 9.40\%\\
-\hline
-65-74 & 6.80\% & 11.50\% & 8.90\% & 28.00\%\\
-\hline
-75+ & 6.10\% & 7.90\% & 7\% & 20.60\%\\
-\hline
-Median & 39.1 years & 29.0 years & 34.0 years & 62.0 years\\
-\hline
-Mean & 33.3 years & 38.7 years & 35.7 years & 50.0 years\\
-\hline
-Race and Ethnicity &  &  &  & \\
-\hline
-American Indian or Alaska Native & 0.80\% & 1.40\% & 1.00\% & 0.80\%\\
-\hline
-Asian & 5.50\% & 11.70\% & 8.30\% & 6.90\%\\
-\hline
-Asian Pacific Islander & 0.10\% & 0.20\% & 0.20\% & 3.50\%\\
-\hline
-Black/African American & 36.90\% & 44.90\% & 40.20\% & 7.90\%\\
-\hline
-Latino & 3.80\% & 2.80\% & 3.40\% & 6.50\%\\
-\hline
-Multiple & 15.50\% & 10.20\% & 13.20\% & 8.00\%\\
-\hline
-Native Hawaiian or Pacific Islander & 2.30\% & 1.90\% & 2.10\% & 2.40\%\\
-\hline
-Other & 0\% & 0.00\% & 0\% & 0.80\%\\
-\hline
-White & 30.10\% & 22.30\% & 26.80\% & 56.10\%\\
-\hline
-Unknown & 5\% & 4.50\% & 4.80\% & 6.90\%\\
-\hline
-Gender &  &  &  & \\
-\hline
-Female & 58.60\% & 53.50\% & 56.30\% & 52.40\%\\
-\hline
-Male & 40.60\% & 45.70\% & 42.90\% & 47.20\%\\
-\hline
-Multiple & 0.80\% & 0.80\% & 0.80\% & 0.40\%\\
-\hline
-\end{tabular}
+\begin{tabu} to \linewidth {>{\raggedright\arraybackslash}p{6.1cm}>{\raggedright}X>{\raggedright}X>{\raggedright}X>{\raggedright}X}
+\toprule
+X1 & KCHA & SHA & Combined PHA & Non-PHA\\
+\midrule
+\rowcolor{gray!6}  Characteristics & N=34,514 (5.9\%) & N=27,044  (4.6\%) & N=60,919  (10.4\%) & N=523,814 (89.5\%)\\
+\addlinespace[0.3em]
+\multicolumn{5}{l}{\textbf{Age}}\\
+\hspace{1em}<5 & 6.60\% & 6.10\% & 6.40\% & 5.50\%\\
+\rowcolor{gray!6}  \hspace{1em}5-9 & 12.00\% & 10.20\% & 11.20\% & 7.00\%\\
+\hspace{1em}10-17 & 19.50\% & 14.90\% & 17.50\% & 9.80\%\\
+\rowcolor{gray!6}  \hspace{1em}18-29 & 12.50\% & 9.90\% & 11.30\% & 8.30\%\\
+\hspace{1em}30-49 & 21.00\% & 19.30\% & 20.30\% & 11.20\%\\
+\rowcolor{gray!6}  \hspace{1em}50-64 & 15.30\% & 19.90\% & 17.40\% & 9.40\%\\
+\hspace{1em}65-74 & 6.80\% & 11.50\% & 8.90\% & 28.00\%\\
+\rowcolor{gray!6}  \hspace{1em}75+ & 6.10\% & 7.90\% & 7.00\% & 20.60\%\\
+\hspace{1em}Median & 39.1 years & 29.0 years & 34.0 years & 62.0 years\\
+\rowcolor{gray!6}  \hspace{1em}Mean & 33.3 years & 38.7 years & 35.7 years & 50.0 years\\
+\addlinespace[0.3em]
+\multicolumn{5}{l}{\textbf{Race and Ethnicity}}\\
+\hspace{1em}American Indian or Alaska Native & 0.80\% & 1.40\% & 1.00\% & 0.80\%\\
+\rowcolor{gray!6}  \hspace{1em}Asian & 5.50\% & 11.70\% & 8.30\% & 6.90\%\\
+\hspace{1em}Asian Pacific Islander & 0.10\% & 0.20\% & 0.20\% & 3.50\%\\
+\rowcolor{gray!6}  \hspace{1em}Black/African American & 36.90\% & 44.90\% & 40.20\% & 7.90\%\\
+\hspace{1em}Latino & 3.80\% & 2.80\% & 3.40\% & 6.50\%\\
+\rowcolor{gray!6}  \hspace{1em}Multiple & 15.50\% & 10.20\% & 13.20\% & 8.00\%\\
+\hspace{1em}Native Hawaiian or Pacific Islander & 2.30\% & 1.90\% & 2.10\% & 2.40\%\\
+\rowcolor{gray!6}  \hspace{1em}Other & 0.00\% & 0.00\% & 0.00\% & 0.80\%\\
+\hspace{1em}White & 30.10\% & 22.30\% & 26.80\% & 56.10\%\\
+\rowcolor{gray!6}  \hspace{1em}Unknown & 5.00\% & 4.50\% & 4.80\% & 6.90\%\\
+\addlinespace[0.3em]
+\multicolumn{5}{l}{\textbf{Gender}}\\
+\hspace{1em}Female & 58.60\% & 53.50\% & 56.30\% & 52.40\%\\
+\rowcolor{gray!6}  \hspace{1em}Male & 40.60\% & 45.70\% & 42.90\% & 47.20\%\\
+\hspace{1em}Multiple & 0.80\% & 0.80\% & 0.80\% & 0.40\%\\
+\bottomrule
+\end{tabu}
 \end{table}
 \chapter*{Colophon}\label{colophon}
 \addcontentsline{toc}{chapter}{Colophon}
@@ -579,7 +551,7 @@ been organised into an R package, xxx, which is available at
 \url{https://github.com/xxx/xxx}. A hard copy of the thesis can be found
 in the University of Washington library.
 
-This version of the thesis was generated on 2020-05-20 21:23:40. The
+This version of the thesis was generated on 2020-05-21 13:38:39. The
 repository is currently at this commit:
 
 The computational environment that was used to generate this version is
@@ -595,7 +567,7 @@ as follows:
  collate  English_United States.1252  
  ctype    English_United States.1252  
  tz       America/Los_Angeles         
- date     2020-05-20                  
+ date     2020-05-21                  
 
 - Packages -------------------------------------------------------------------
  package     * version date       lib source                               
@@ -619,7 +591,9 @@ as follows:
  gtable        0.3.0   2019-03-25 [1] CRAN (R 3.6.1)                       
  hms           0.5.0   2019-07-09 [1] CRAN (R 3.6.1)                       
  htmltools     0.4.0   2019-10-04 [1] CRAN (R 3.6.2)                       
+ httr          1.4.0   2018-12-11 [1] CRAN (R 3.6.1)                       
  huskydown   * 0.0.5   2020-05-01 [1] Github (benmarwick/huskydown@a909835)
+ kableExtra  * 1.1.0   2019-03-16 [1] CRAN (R 3.6.3)                       
  knitr       * 1.27    2020-01-16 [1] CRAN (R 3.6.2)                       
  lazyeval      0.2.2   2019-03-15 [1] CRAN (R 3.6.1)                       
  magrittr    * 1.5     2014-11-22 [1] CRAN (R 3.6.1)                       
@@ -641,6 +615,7 @@ as follows:
  rmarkdown     2.1     2020-01-20 [1] CRAN (R 3.6.3)                       
  rprojroot     1.3-2   2018-01-03 [1] CRAN (R 3.6.1)                       
  rstudioapi    0.10    2019-03-19 [1] CRAN (R 3.6.1)                       
+ rvest         0.3.4   2019-05-15 [1] CRAN (R 3.6.1)                       
  scales        1.0.0   2018-08-09 [1] CRAN (R 3.6.1)                       
  sessioninfo   1.1.1   2018-11-05 [1] CRAN (R 3.6.2)                       
  stringi       1.4.3   2019-03-12 [1] CRAN (R 3.6.0)                       
@@ -650,8 +625,11 @@ as follows:
  tidyselect    0.2.5   2018-10-11 [1] CRAN (R 3.6.1)                       
  usethis     * 1.6.1   2020-04-29 [1] CRAN (R 3.6.3)                       
  vctrs         0.2.0   2019-07-05 [1] CRAN (R 3.6.1)                       
+ viridisLite   0.3.0   2018-02-01 [1] CRAN (R 3.6.1)                       
+ webshot       0.5.2   2019-11-22 [1] CRAN (R 3.6.2)                       
  withr         2.1.2   2018-03-15 [1] CRAN (R 3.6.1)                       
  xfun          0.8     2019-06-25 [1] CRAN (R 3.6.1)                       
+ xml2          1.2.0   2018-01-24 [1] CRAN (R 3.6.1)                       
  yaml          2.2.0   2018-07-25 [1] CRAN (R 3.6.0)                       
  zeallot       0.1.0   2018-01-28 [1] CRAN (R 3.6.1)                       
 

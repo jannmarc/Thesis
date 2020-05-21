@@ -2,11 +2,23 @@
 
 # Results {#ref-labels}
 
+Among the study participants, the proportion of people in the PHA group were 10.4% and of that, 5.9% were with KCHA and 4.6% with SHA. The majority, 89.5% did not have any public housing assitance in 2017.
+Overall, 9.9% were considered to have diabetes and the rest, 90.1% were not considered to have diabetes.
+
+```{r, echo=FALSE}
+options(knitr.kable.NA = '')
+table1%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
+  kable_styling(latex_options = "striped", full_width = T)%>%  
+  pack_rows("Age",2,11, bold= T )%>%
+  pack_rows("Race and Ethnicity",12,21, bold= T)%>%
+  pack_rows("Gender",22,24, bold= T)%>%
+  column_spec(1,width = "6.1cm")%>%
+  footnote(general = "Percentages may not add up to 100 because of missing data")
+```
 
 
-
-
-
+In the unadjusted model the odds ratio of having diabetes was 1.34 fold greater (95% CI: 1.31-1.38) for those with public housing assistance (table 2).
 
 
 

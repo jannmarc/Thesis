@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  20 MAY 2020 21:23
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  21 MAY 2020 13:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,8 +597,56 @@ tionSpace=WordSpace,Scale=MatchLowercase].
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
+(c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+(c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen179
+\ar@mcellbox=\box52
+\extrarowheight=\dimen180
+\NC@list=\toks24
+\extratabsurround=\skip114
+\backup@length=\skip115
+\ar@cellbox=\box53
 )
-\c@theorem=\count277
+(c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.s
+ty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box54
+\sift@deathcycles=\count277
+\@vwid@loff=\dimen181
+\@vwid@roff=\dimen182
+)
+\c@taburow=\count278
+\tabu@nbcols=\count279
+\tabu@cnt=\count280
+\tabu@Xcol=\count281
+\tabu@alloc=\count282
+\tabu@nested=\count283
+\tabu@target=\dimen183
+\tabu@spreadtarget=\dimen184
+\tabu@naturalX=\dimen185
+\tabucolX=\dimen186
+\tabu@Xsum=\dimen187
+\extrarowdepth=\dimen188
+\abovetabulinesep=\dimen189
+\belowtabulinesep=\dimen190
+\tabustrutrule=\dimen191
+\tabu@thebody=\toks25
+\tabu@footnotes=\toks26
+\tabu@box=\box55
+\tabu@arstrutbox=\box56
+\tabu@hleads=\box57
+\tabu@vleads=\box58
+\tabu@cellskip=\skip116
+))
+(c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.s
+ty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks27
+\minrowclearance=\skip117
+)
+\c@theorem=\count284
 
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/draftwatermark/draf
 twatermark.sty
@@ -634,41 +682,31 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 ) (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/tabularx.st
 y
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-(c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen179
-\ar@mcellbox=\box52
-\extrarowheight=\dimen180
-\NC@list=\toks24
-\extratabsurround=\skip114
-\backup@length=\skip115
-\ar@cellbox=\box53
-)
-\TX@col@width=\dimen181
-\TX@old@table=\dimen182
-\TX@old@col=\dimen183
-\TX@target=\dimen184
-\TX@delta=\dimen185
-\TX@cols=\count278
-\TX@ftn=\toks25
+\TX@col@width=\dimen192
+\TX@old@table=\dimen193
+\TX@old@col=\dimen194
+\TX@target=\dimen195
+\TX@delta=\dimen196
+\TX@cols=\count285
+\TX@ftn=\toks28
 )
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
-\LTleft=\skip116
-\LTright=\skip117
-\LTpre=\skip118
-\LTpost=\skip119
-\LTchunksize=\count279
-\LTcapwidth=\dimen186
-\LT@head=\box54
-\LT@firsthead=\box55
-\LT@foot=\box56
-\LT@lastfoot=\box57
-\LT@cols=\count280
-\LT@rows=\count281
-\c@LT@tables=\count282
-\c@LT@chunks=\count283
-\LT@p@ftn=\toks26
+\LTleft=\skip118
+\LTright=\skip119
+\LTpre=\skip120
+\LTpost=\skip121
+\LTchunksize=\count286
+\LTcapwidth=\dimen197
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@cols=\count287
+\LT@rows=\count288
+\c@LT@tables=\count289
+\c@LT@chunks=\count290
+\LT@p@ftn=\toks29
 )
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.s
 ty
@@ -688,65 +726,65 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode not found.
 ) (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count284
+\lrq@indent=\count291
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count285
-\c@listtotal=\count286
-\c@listcount=\count287
-\c@liststart=\count288
-\c@liststop=\count289
-\c@citecount=\count290
-\c@citetotal=\count291
-\c@multicitecount=\count292
-\c@multicitetotal=\count293
-\c@instcount=\count294
-\c@maxnames=\count295
-\c@minnames=\count296
-\c@maxitems=\count297
-\c@minitems=\count298
-\c@citecounter=\count299
-\c@maxcitecounter=\count300
-\c@savedcitecounter=\count301
-\c@uniquelist=\count302
-\c@uniquename=\count303
-\c@refsection=\count304
-\c@refsegment=\count305
-\c@maxextratitle=\count306
-\c@maxextratitleyear=\count307
-\c@maxextraname=\count308
-\c@maxextradate=\count309
-\c@maxextraalpha=\count310
-\c@abbrvpenalty=\count311
-\c@highnamepenalty=\count312
-\c@lownamepenalty=\count313
-\c@maxparens=\count314
-\c@parenlevel=\count315
-\blx@tempcnta=\count316
-\blx@tempcntb=\count317
-\blx@tempcntc=\count318
-\blx@maxsection=\count319
-\blx@maxsegment@0=\count320
-\blx@notetype=\count321
-\blx@parenlevel@text=\count322
-\blx@parenlevel@foot=\count323
-\blx@sectionciteorder@0=\count324
-\blx@entrysetcounter=\count325
-\labelnumberwidth=\skip120
-\labelalphawidth=\skip121
-\biblabelsep=\skip122
-\bibitemsep=\skip123
-\bibnamesep=\skip124
-\bibinitsep=\skip125
-\bibparsep=\skip126
-\bibhang=\skip127
+\c@tabx@nest=\count292
+\c@listtotal=\count293
+\c@listcount=\count294
+\c@liststart=\count295
+\c@liststop=\count296
+\c@citecount=\count297
+\c@citetotal=\count298
+\c@multicitecount=\count299
+\c@multicitetotal=\count300
+\c@instcount=\count301
+\c@maxnames=\count302
+\c@minnames=\count303
+\c@maxitems=\count304
+\c@minitems=\count305
+\c@citecounter=\count306
+\c@maxcitecounter=\count307
+\c@savedcitecounter=\count308
+\c@uniquelist=\count309
+\c@uniquename=\count310
+\c@refsection=\count311
+\c@refsegment=\count312
+\c@maxextratitle=\count313
+\c@maxextratitleyear=\count314
+\c@maxextraname=\count315
+\c@maxextradate=\count316
+\c@maxextraalpha=\count317
+\c@abbrvpenalty=\count318
+\c@highnamepenalty=\count319
+\c@lownamepenalty=\count320
+\c@maxparens=\count321
+\c@parenlevel=\count322
+\blx@tempcnta=\count323
+\blx@tempcntb=\count324
+\blx@tempcntc=\count325
+\blx@maxsection=\count326
+\blx@maxsegment@0=\count327
+\blx@notetype=\count328
+\blx@parenlevel@text=\count329
+\blx@parenlevel@foot=\count330
+\blx@sectionciteorder@0=\count331
+\blx@entrysetcounter=\count332
+\labelnumberwidth=\skip122
+\labelalphawidth=\skip123
+\biblabelsep=\skip124
+\bibitemsep=\skip125
+\bibnamesep=\skip126
+\bibinitsep=\skip127
+\bibparsep=\skip128
+\bibhang=\skip129
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language5
-\c@mincomprange=\count326
-\c@maxcomprange=\count327
-\c@mincompwidth=\count328
+\c@mincomprange=\count333
+\c@maxcomprange=\count334
+\c@mincompwidth=\count335
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -755,88 +793,88 @@ File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count329
-\c@savedafterword=\count330
-\c@annotator=\count331
-\c@savedannotator=\count332
-\c@author=\count333
-\c@savedauthor=\count334
-\c@bookauthor=\count335
-\c@savedbookauthor=\count336
-\c@commentator=\count337
-\c@savedcommentator=\count338
-\c@editor=\count339
-\c@savededitor=\count340
-\c@editora=\count341
-\c@savededitora=\count342
-\c@editorb=\count343
-\c@savededitorb=\count344
-\c@editorc=\count345
-\c@savededitorc=\count346
-\c@foreword=\count347
-\c@savedforeword=\count348
-\c@holder=\count349
-\c@savedholder=\count350
-\c@introduction=\count351
-\c@savedintroduction=\count352
-\c@namea=\count353
-\c@savednamea=\count354
-\c@nameb=\count355
-\c@savednameb=\count356
-\c@namec=\count357
-\c@savednamec=\count358
-\c@translator=\count359
-\c@savedtranslator=\count360
-\c@shortauthor=\count361
-\c@savedshortauthor=\count362
-\c@shorteditor=\count363
-\c@savedshorteditor=\count364
-\c@labelname=\count365
-\c@savedlabelname=\count366
-\c@institution=\count367
-\c@savedinstitution=\count368
-\c@lista=\count369
-\c@savedlista=\count370
-\c@listb=\count371
-\c@savedlistb=\count372
-\c@listc=\count373
-\c@savedlistc=\count374
-\c@listd=\count375
-\c@savedlistd=\count376
-\c@liste=\count377
-\c@savedliste=\count378
-\c@listf=\count379
-\c@savedlistf=\count380
-\c@location=\count381
-\c@savedlocation=\count382
-\c@organization=\count383
-\c@savedorganization=\count384
-\c@origlocation=\count385
-\c@savedoriglocation=\count386
-\c@origpublisher=\count387
-\c@savedorigpublisher=\count388
-\c@publisher=\count389
-\c@savedpublisher=\count390
-\c@language=\count391
-\c@savedlanguage=\count392
-\c@origlanguage=\count393
-\c@savedoriglanguage=\count394
-\c@pageref=\count395
-\c@savedpageref=\count396
-\shorthandwidth=\skip128
-\shortjournalwidth=\skip129
-\shortserieswidth=\skip130
-\shorttitlewidth=\skip131
-\shortauthorwidth=\skip132
-\shorteditorwidth=\skip133
-\locallabelnumberwidth=\skip134
-\locallabelalphawidth=\skip135
-\localshorthandwidth=\skip136
-\localshortjournalwidth=\skip137
-\localshortserieswidth=\skip138
-\localshorttitlewidth=\skip139
-\localshortauthorwidth=\skip140
-\localshorteditorwidth=\skip141
+\c@afterword=\count336
+\c@savedafterword=\count337
+\c@annotator=\count338
+\c@savedannotator=\count339
+\c@author=\count340
+\c@savedauthor=\count341
+\c@bookauthor=\count342
+\c@savedbookauthor=\count343
+\c@commentator=\count344
+\c@savedcommentator=\count345
+\c@editor=\count346
+\c@savededitor=\count347
+\c@editora=\count348
+\c@savededitora=\count349
+\c@editorb=\count350
+\c@savededitorb=\count351
+\c@editorc=\count352
+\c@savededitorc=\count353
+\c@foreword=\count354
+\c@savedforeword=\count355
+\c@holder=\count356
+\c@savedholder=\count357
+\c@introduction=\count358
+\c@savedintroduction=\count359
+\c@namea=\count360
+\c@savednamea=\count361
+\c@nameb=\count362
+\c@savednameb=\count363
+\c@namec=\count364
+\c@savednamec=\count365
+\c@translator=\count366
+\c@savedtranslator=\count367
+\c@shortauthor=\count368
+\c@savedshortauthor=\count369
+\c@shorteditor=\count370
+\c@savedshorteditor=\count371
+\c@labelname=\count372
+\c@savedlabelname=\count373
+\c@institution=\count374
+\c@savedinstitution=\count375
+\c@lista=\count376
+\c@savedlista=\count377
+\c@listb=\count378
+\c@savedlistb=\count379
+\c@listc=\count380
+\c@savedlistc=\count381
+\c@listd=\count382
+\c@savedlistd=\count383
+\c@liste=\count384
+\c@savedliste=\count385
+\c@listf=\count386
+\c@savedlistf=\count387
+\c@location=\count388
+\c@savedlocation=\count389
+\c@organization=\count390
+\c@savedorganization=\count391
+\c@origlocation=\count392
+\c@savedoriglocation=\count393
+\c@origpublisher=\count394
+\c@savedorigpublisher=\count395
+\c@publisher=\count396
+\c@savedpublisher=\count397
+\c@language=\count398
+\c@savedlanguage=\count399
+\c@origlanguage=\count400
+\c@savedoriglanguage=\count401
+\c@pageref=\count402
+\c@savedpageref=\count403
+\shorthandwidth=\skip130
+\shortjournalwidth=\skip131
+\shortserieswidth=\skip132
+\shorttitlewidth=\skip133
+\shortauthorwidth=\skip134
+\shorteditorwidth=\skip135
+\locallabelnumberwidth=\skip136
+\locallabelalphawidth=\skip137
+\localshorthandwidth=\skip138
+\localshortjournalwidth=\skip139
+\localshortserieswidth=\skip140
+\localshorttitlewidth=\skip141
+\localshortauthorwidth=\skip142
+\localshorteditorwidth=\skip143
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -855,19 +893,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/biblatex.d
 ef
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count397
-\c@textcitetotal=\count398
-\c@textcitemaxnames=\count399
-\c@biburlbigbreakpenalty=\count400
-\c@biburlbreakpenalty=\count401
-\c@biburlnumpenalty=\count402
-\c@biburlucpenalty=\count403
-\c@biburllcpenalty=\count404
+\c@textcitecount=\count404
+\c@textcitetotal=\count405
+\c@textcitemaxnames=\count406
+\c@biburlbigbreakpenalty=\count407
+\c@biburlbreakpenalty=\count408
+\c@biburlnumpenalty=\count409
+\c@biburlucpenalty=\count410
+\c@biburllcpenalty=\count411
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count405
+\c@smartand=\count412
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -881,8 +919,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/biblatex/bbx/standa
 rd.bbx
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count406
-\c@bbx:relatedtotal=\count407
+\c@bbx:relatedcount=\count413
+\c@bbx:relatedtotal=\count414
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -911,51 +949,51 @@ File: biblatex.cfg
 ))
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip142
+\@mathmargin=\skip144
 For additional information on amsmath, use the `?' option.
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen187
+\pmbraise@=\dimen198
 ) (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.st
 y
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count408
+\inf@bad=\count415
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count409
-\leftroot@=\count410
+\uproot@=\count416
+\leftroot@=\count417
 LaTeX Font Info:    Redeclaring math symbol \varTheta on input line 387.
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count411
-\DOTSCASE@=\count412
+\classnum@=\count418
+\DOTSCASE@=\count419
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box58
-\strutbox@=\box59
-\big@size=\dimen188
+\Mathstrutbox@=\box63
+\strutbox@=\box64
+\big@size=\dimen199
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count413
-\c@MaxMatrixCols=\count414
+\macc@depth=\count420
+\c@MaxMatrixCols=\count421
 \dotsspace@=\muskip21
-\c@parentequation=\count415
-\dspbrk@lvl=\count416
-\tag@help=\toks27
-\row@=\count417
-\column@=\count418
-\maxfields@=\count419
-\andhelp@=\toks28
-\eqnshift@=\dimen189
-\alignsep@=\dimen190
-\tagshift@=\dimen191
-\tagwidth@=\dimen192
-\totwidth@=\dimen193
-\lineht@=\dimen194
-\@envbody=\toks29
-\multlinegap=\skip143
-\multlinetaggap=\skip144
-\mathdisplay@stack=\toks30
+\c@parentequation=\count422
+\dspbrk@lvl=\count423
+\tag@help=\toks30
+\row@=\count424
+\column@=\count425
+\maxfields@=\count426
+\andhelp@=\toks31
+\eqnshift@=\dimen256
+\alignsep@=\dimen257
+\tagshift@=\dimen258
+\tagwidth@=\dimen259
+\totwidth@=\dimen260
+\lineht@=\dimen261
+\@envbody=\toks32
+\multlinegap=\skip145
+\multlinetaggap=\skip146
+\mathdisplay@stack=\toks33
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
@@ -971,21 +1009,21 @@ Package: xltxtra 2018/12/31 v0.7 Improvements for the "XeLaTeX" format
 ipts.sty
 Package: realscripts 2016/02/13 v0.3d Access OpenType subscripts and superscrip
 ts
-\subsupersep=\dimen195
+\subsupersep=\dimen262
 )
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/metalogo/metalogo.s
 ty
 Package: metalogo 2010/05/29 v0.12 Extended TeX logo macros
-\xl@everylogo=\toks31
-\xl@@everylogo=\toks32
+\xl@everylogo=\toks34
+\xl@@everylogo=\toks35
 LaTeX Info: Redefining \TeX on input line 193.
 LaTeX Info: Redefining \LaTeX on input line 202.
 LaTeX Info: Redefining \LaTeXe on input line 219.
 )
-\l__xetex_show_hyphens_wrapping_box=\box60
-\l__xetex_show_hyphens_temp_box=\box61
-\l__xetex_show_hyphens_final_box=\box62
-\g__xetex_show_hyphens_word_box=\box63
+\l__xetex_show_hyphens_wrapping_box=\box65
+\l__xetex_show_hyphens_temp_box=\box66
+\l__xetex_show_hyphens_final_box=\box67
+\g__xetex_show_hyphens_word_box=\box68
 )
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/xelatex/xunicode/xunicode
 .sty
@@ -1004,18 +1042,18 @@ LaTeX Font Warning: Font shape `TU/EBGaramond(3)/b/n' undefined
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
 (Font)              scaled to size 9.71375pt on input line 357.
 )
-\tipaTiiicode=\count420
-\tipasavetokens=\toks33
-\tipachecktokens=\toks34
+\tipaTiiicode=\count427
+\tipasavetokens=\toks36
+\tipachecktokens=\toks37
 )
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyvrb.s
 ty
 Package: fancyvrb 2020/05/03 v3.6 verbatim text (tvz,hv)
-\FV@CodeLineNo=\count421
+\FV@CodeLineNo=\count428
 \FV@InFile=\read4
-\FV@TabBox=\box64
-\c@FancyVerbLine=\count422
-\FV@StepNumber=\count423
+\FV@TabBox=\box69
+\c@FancyVerbLine=\count429
+\FV@StepNumber=\count430
 \FV@OutFile=\write5
 )
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.s
@@ -1040,9 +1078,9 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen196
-\Hy@linkcounter=\count424
-\Hy@pagecounter=\count425
+\@linkdim=\dimen263
+\Hy@linkcounter=\count431
+\Hy@pagecounter=\count432
 
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
@@ -1055,7 +1093,7 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 .sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count426
+\Hy@SavedSpaceFactor=\count433
 Package hyperref Info: Option `setpagesize' set `false' on input line 4338.
 Package hyperref Info: Option `unicode' set `false' on input line 4338.
 Package hyperref Info: Option `colorlinks' set `true' on input line 4338.
@@ -1066,9 +1104,9 @@ Package hyperref Info: Plain pages OFF on input line 4479.
 Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4717.
-\c@Hy@tempcnt=\count427
+\c@Hy@tempcnt=\count434
 LaTeX Info: Redefining \url on input line 5076.
-\XeTeXLinkMargin=\dimen197
+\XeTeXLinkMargin=\dimen264
 
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -1078,9 +1116,9 @@ calc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count428
-\Field@Width=\dimen198
-\Fld@charsize=\dimen199
+\Fld@menulength=\count435
+\Field@Width=\dimen265
+\Fld@charsize=\dimen266
 Package hyperref Info: Hyper figures OFF on input line 6347.
 Package hyperref Info: Link nesting OFF on input line 6352.
 Package hyperref Info: Hyper index ON on input line 6355.
@@ -1095,9 +1133,9 @@ LaTeX Info: Redefining \pageref on input line 6421.
 .sty
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
-\Hy@abspage=\count429
-\c@Item=\count430
-\c@Hfootnote=\count431
+\Hy@abspage=\count436
+\c@Item=\count437
+\c@Hfootnote=\count438
 )
 Package hyperref Info: Driver: hxetex.
 
@@ -1111,11 +1149,11 @@ nc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\pdfm@box=\box65
-\c@Hy@AnnotLevel=\count432
-\HyField@AnnotCount=\count433
-\Fld@listcount=\count434
-\c@bookmark@seq@number=\count435
+\pdfm@box=\box70
+\c@Hy@AnnotLevel=\count439
+\HyField@AnnotCount=\count440
+\Fld@listcount=\count441
+\c@bookmark@seq@number=\count442
 
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/reru
 nfilecheck.sty
@@ -1132,11 +1170,11 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip145
+\Hy@SectionHShift=\skip147
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 157.
-\@quotelevel=\count436
-\@quotereset=\count437
+\@quotelevel=\count443
+\@quotereset=\count444
 (./Marc-Macarulay.aux)
 \openout1 = `Marc-Macarulay.aux'.
 
@@ -1192,7 +1230,7 @@ Package biblatex Info: ... file 'Marc-Macarulay.bbl' not found.
 No file Marc-Macarulay.bbl.
 Package biblatex Info: Reference section=0 on input line 163.
 Package biblatex Info: Reference segment=0 on input line 163.
-\AtBeginShipoutBox=\box66
+\AtBeginShipoutBox=\box71
 Package hyperref Info: Link coloring ON on input line 163.
 
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.st
@@ -1207,7 +1245,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ttitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count438
+\c@section@level=\count445
 )
 LaTeX Info: Redefining \ref on input line 163.
 LaTeX Info: Redefining \pageref on input line 163.
@@ -1300,17 +1338,10 @@ LaTeX Warning: Reference `tab:maxdelays' on page 10 undefined on input line 458
 
 ]
 <<A>>
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/b/n' will be
-(Font)              scaled to size 10.25006pt on input line 483.
-
-Overfull \hbox (72.62502pt too wide) in paragraph at lines 492--551
- [][] 
- []
-
 [12
 
 ] [13]
-Overfull \hbox (9.40807pt too wide) in paragraph at lines 588--588
+Overfull \hbox (9.40807pt too wide) in paragraph at lines 560--560
 []\TU/SourceCodePro(0)/m/n/12 - Session info ----------------------------------
 -----------------------------[] 
  []
@@ -1318,7 +1349,7 @@ Overfull \hbox (9.40807pt too wide) in paragraph at lines 588--588
 [14
 
 ]
-Overfull \hbox (9.40808pt too wide) in paragraph at lines 600--600
+Overfull \hbox (9.40808pt too wide) in paragraph at lines 572--572
 []\TU/SourceCodePro(0)/m/n/12 - Packages --------------------------------------
 -----------------------------[] 
  []
@@ -1330,17 +1361,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [16] [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 708.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 686.
 [18
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 708.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 686.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 708.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 708.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 686.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 686.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
-(rerunfilecheck)             Checksum: F3FABD936CA4335D25F0C856CCF334D9;958.
+(rerunfilecheck)             Checksum: AA52DD493CDFF16F6B65D576B2BCF075;942.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 64.17pt have occurred.
@@ -1356,12 +1387,12 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25007 strings out of 481249
- 456493 string characters out of 5922349
- 1147980 words of memory out of 5000000
- 42151 multiletter control sequences out of 15000+600000
- 539877 words of font info for 90 fonts, out of 8000000 for 9000
+ 25801 strings out of 481249
+ 467648 string characters out of 5922349
+ 1168418 words of memory out of 5000000
+ 42934 multiletter control sequences out of 15000+600000
+ 539869 words of font info for 89 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 61i,8n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,15n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Marc-Macarulay.pdf (25 pages).
