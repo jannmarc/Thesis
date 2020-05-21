@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.30)  20 MAY 2020 19:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.4.30)  20 MAY 2020 20:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1320,17 +1320,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [15] [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 642.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 646.
 [17
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 642.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 646.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 642.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 642.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 646.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 646.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
-(rerunfilecheck)             Checksum: 58545AFBD6E4419AD8744FE0D95828D4;974.
+(rerunfilecheck)             Checksum: F3FABD936CA4335D25F0C856CCF334D9;958.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 64.17pt have occurred.
@@ -1347,8 +1347,8 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  24999 strings out of 481455
- 456108 string characters out of 5927421
- 1145598 words of memory out of 5000000
+ 456099 string characters out of 5927421
+ 1145588 words of memory out of 5000000
  41941 multiletter control sequences out of 15000+600000
  539869 words of font info for 89 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191

@@ -5,19 +5,27 @@
 <!--
 If you feel it necessary to include an appendix, it goes here.
 -->
+```{r load-packages, include=FALSE}
+library(dplyr)
+library(magrittr)
+library(knitr)
+```
+
 
 ```{r, echo=FALSE,}
 table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 ```
 
 
+
 # The First Appendix
+```{r}
+options(knitr.kable.NA = '')
+knitr::kable(table1, caption= "Table 1. Population Demographics")%>%
+  kableExtra::kable_styling(latex_options = c("striped", "hold_position"),
+                full_width = F)
+```
 
-knitr::kable(table1, format = "markdown")
-
-getwd()
 
 
- getwd()
- 
- rm("table1")
+
