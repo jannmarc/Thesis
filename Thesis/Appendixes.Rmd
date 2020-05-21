@@ -19,14 +19,13 @@ table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 
 
 
-# The First Appendix
+#Appendix
 ```{r, echo=FALSE}
 options(knitr.kable.NA = '')
 table1%>%
 knitr::kable(format = "latex", booktabs = T , caption= "Population Demographics")%>%
   kable_styling(latex_options = "striped", full_width = T)%>%  
-  group_rows(2, 13, 24, label_row_css = "background-color: #666; color: #fff;")%>%
-  add_indent(c(3:12))
+  group_rows(2, 13, 24, label_row_css = "background-color: #666; color: #fff;",bold = T)
 ```
 
 
