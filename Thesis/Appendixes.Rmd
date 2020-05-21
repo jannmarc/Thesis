@@ -6,12 +6,17 @@
 If you feel it necessary to include an appendix, it goes here.
 -->
 
+```{r, echo=FALSE}
+table1<-read.table("table 1.csv", fill =TRUE, sep=",")
+```
+
 
 # The First Appendix
 
-kable(table1.csv)
+knitr::kable(table1)
 
 
 
 
 # The Second Appendix, for Fun
+ getwd()
