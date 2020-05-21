@@ -926,3 +926,4 @@
 
 
  \usepackage{tabu} 
+ \usepackage{colortbl}
