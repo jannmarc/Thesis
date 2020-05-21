@@ -55,4 +55,10 @@ if(!require(huskydown))
 library(huskydown)
 ```
 
+```{r load-packages, include=FALSE}
+library(dplyr)
+library(magrittr)
+library(knitr)
+library(kableExtra)
+```
 <!-- The {.unnumbered} option here means that the introduction will be "Chapter 0." You can also use {-} for no numbers on chapters. -->
