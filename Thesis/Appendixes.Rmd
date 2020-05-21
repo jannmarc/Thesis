@@ -23,8 +23,8 @@ table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 ```{r, echo=FALSE}
 options(knitr.kable.NA = '')
 table1%>%
-knitr::kable(format = "latex", caption= "Population Demographics")%>%
-  kable_styling(latex_options = c("striped", "hold_position"))
+knitr::kable(format = "latex", booktabs = T , caption= "Population Demographics")%>%
+  kable_styling(latex_options = c("striped", "hold_position"), full_width = T)
 ```
 
 
