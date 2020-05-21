@@ -25,10 +25,10 @@ options(knitr.kable.NA = '')
 table1%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
   kable_styling(latex_options = "striped", full_width = T)%>%  
-  group_rows("Age",2,11)%>%
-  group_rows("Race and Ethnicity",12,20)%>%
-  group_rows("Gender",22,24)%>%
-  column_spec(1,width = "6cm")
+  group_rows("Age",2,11, bold= T )%>%
+  group_rows("Race and Ethnicity",12,20, bold= T)%>%
+  group_rows("Gender",22,24, bold= T)%>%
+  column_spec(1,width = "6.1cm")
 ```
 
 
