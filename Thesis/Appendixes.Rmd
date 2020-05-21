@@ -25,7 +25,7 @@ options(knitr.kable.NA = '')
 table1%>%
 knitr::kable(format = "latex", booktabs = T , caption= "Population Demographics")%>%
   kable_styling(latex_options = "striped", full_width = T)%>%  
-  group_rows(2, 13, 24, label_row_css = "background-color: #666; color: #fff;",bold = T)
+  add_indent(c(3:12))
 ```
 
 
