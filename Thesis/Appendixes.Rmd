@@ -6,17 +6,18 @@
 If you feel it necessary to include an appendix, it goes here.
 -->
 
-```{r, echo=FALSE, message=FALSE}
-table1<-readr::read_csv("table 1.csv",col_types = cols())
+```{r, echo=FALSE,}
+table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 ```
 
 
 # The First Appendix
 
-knitr::kable(table1)
+knitr::kable(table1, format = "markdown")
+
+getwd()
 
 
-
-
-# The Second Appendix, for Fun
  getwd()
+ 
+ rm("table1")
