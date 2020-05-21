@@ -221,12 +221,7 @@ And here's some other random info: the first paragraph after a chapter title or 
 <!--
 If you feel it necessary to include an appendix, it goes here.
 -->
-```{r load-packages, include=FALSE}
-library(dplyr)
-library(magrittr)
-library(knitr)
-library(kableExtra)
-```
+
 
 
 ```{r, echo=FALSE,}
@@ -244,7 +239,8 @@ knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%
   pack_rows("Age",2,11, bold= T )%>%
   pack_rows("Race and Ethnicity",12,21, bold= T)%>%
   pack_rows("Gender",22,24, bold= T)%>%
-  column_spec(1,width = "6.1cm")
+  column_spec(1,width = "6.1cm")%>%
+  footnote(general = "Percentages may not add up to 100 because of missing data")
 ```
 
 
