@@ -1,7 +1,7 @@
 
 # Results {#ref-labels}
 
-Among the study participants, the proportion of people that were in the PHA category was 10.4% and of that, 5.9% were with KCHA and 4.6% with SHA. The majority, 89.5% did not have any public housing assitance in 2017. Overall, 9.9% were considered to meet the definiton of diabetes and the rest, 90.1% were not considered to have diabetes. Descriptive analysis revealed that the Non-PHA category had an older population with a median and mean age of 62 and 50 compared to the PHA population with a median and mean age of 34 and 35.7 respectively.
+Among the study participants, the proportion of people that were in the PHA category was 10.4% and of that, 5.9% were with KCHA and 4.6% with SHA. The majority, 89.5% did not have any public housing assitance in 2017. Descriptive analysis revealed that PHA population had a greater proportion of people meeting the definition of diabetes at 12.7% compared to the non-PHA group with 9.6%. Overall, 9.9% were considered to meet the definiton of diabetes and the rest, 90.1% were not considered to have diabetes. Additionally, population age distribution were different, the non-PHA category had an older population with a median and mean age of 62 and 50 compared to the PHA population with a median and mean age of 34 and 35.7 respectively.
 
 
 ```{r, echo=FALSE}
@@ -19,11 +19,12 @@ knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%
 
 For the first analysis, the assocation between diabetes status and public housing assistance, in unadjusted model the odds ratio of having diabetes was 1.34 fold greater (95% CI: 1.31-1.38) for those with public housing assistance (table 2). In the adjusted model, PHA residents were 93% more likely to meet the definition of diabetes compared to those that were non-PHA residents.
 
+Table: (\#tab:inher) Association between PHA Status and Diabetes
 Status  | Model 1          | Model 2
 --------|------------------|----------------
 Non-PHA | Referent         | Referent
 PHA     | 1.34 (1.31-1.38) | 1.94 (1.88-1.99)
-Table: (\#tab:inher) Association between PHA Status and Diabetes
+
 
 In the second analysis, the association between diabetes status and the specific public housing authorities, the crude model showed that the odds of meeting the definiton of diabetes were 1.28 (95% CI: 1.24-1.33) times greater among KCHA residents and 1.42 (95% CI: 1.38-1.48) times greater among SHA residents. The adjusted model showed, that among KCHA residents the odds of meeting the definition of diabetes were 2.16 (95% CI: 2.09-2.25) times higher and 1.70 (95% CI: 1.64-1.77) for SHA residents compared to non-PHA residents.
 
