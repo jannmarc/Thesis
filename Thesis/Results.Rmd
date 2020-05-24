@@ -8,7 +8,7 @@ options(knitr.kable.NA = '')
 table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 table1%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
-kable_styling(latex_options = "striped", full_width = T)%>%
+kable_styling(font_size =  12 , full_width = T)%>%
   pack_rows("Age",2,11, bold= T )%>%
   pack_rows("Race and Ethnicity",12,21, bold= T)%>%
   pack_rows("Gender",22,24, bold= T)%>%
