@@ -373,6 +373,61 @@ were the \textless{}0.05 cutoff. Analyses were conducted using R version
 
 \chapter{Results}\label{ref-labels}
 
+Among the study participants, the proportion of people in the PHA group
+were 10.4\% and of that, 5.9\% were with KCHA and 4.6\% with SHA. The
+majority, 89.5\% did not have any public housing assitance in 2017.
+Overall, 9.9\% were considered to have diabetes and the rest, 90.1\%
+were not considered to have diabetes.
+\begin{verbatim}
+Warning: Missing column names filled in: 'X1' [1]
+\end{verbatim}
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-2}Population Demographics}
+\centering
+\begin{tabu} to \linewidth {>{\raggedright\arraybackslash}p{6.1cm}>{\raggedright}X>{\raggedright}X>{\raggedright}X>{\raggedright}X}
+\toprule
+X1 & KCHA & SHA & Combined PHA & Non-PHA\\
+\midrule
+\rowcolor{gray!6}  Characteristics & N=34,514 (5.9\%) & N=27,044  (4.6\%) & N=60,919  (10.4\%) & N=523,814 (89.5\%)\\
+\addlinespace[0.3em]
+\multicolumn{5}{l}{\textbf{Age}}\\
+\hspace{1em}<5 & 6.6\% & 6.1\% & 6.4\% & 5.5\%\\
+\rowcolor{gray!6}  \hspace{1em}5-9 & 12.0\% & 10.2\% & 11.2\% & 7.0\%\\
+\hspace{1em}10-17 & 19.5\% & 14.9\% & 17.5\% & 9.8\%\\
+\rowcolor{gray!6}  \hspace{1em}18-29 & 12.5\% & 9.9\% & 11.3\% & 8.3\%\\
+\hspace{1em}30-49 & 21.0\% & 19.3\% & 20.3\% & 11.2\%\\
+\rowcolor{gray!6}  \hspace{1em}50-64 & 15.3\% & 19.9\% & 17.4\% & 9.4\%\\
+\hspace{1em}65-74 & 6.8\% & 11.5\% & 8.9\% & 28.0\%\\
+\rowcolor{gray!6}  \hspace{1em}75+ & 6.1\% & 7.9\% & 7.0\% & 20.6\%\\
+\hspace{1em}Median & 39.1 years & 29.0 years & 34.0 years & 62.0 years\\
+\rowcolor{gray!6}  \hspace{1em}Mean & 33.3 years & 38.7 years & 35.7 years & 50.0 years\\
+\addlinespace[0.3em]
+\multicolumn{5}{l}{\textbf{Race and Ethnicity}}\\
+\hspace{1em}American Indian or Alaska Native & 0.8\% & 1.4\% & 1.0\% & 0.8\%\\
+\rowcolor{gray!6}  \hspace{1em}Asian & 5.5\% & 11.7\% & 8.3\% & 6.9\%\\
+\hspace{1em}Asian Pacific Islander & 0.1\% & 0.2\% & 0.2\% & 3.5\%\\
+\rowcolor{gray!6}  \hspace{1em}Black/African American & 36.9\% & 44.9\% & 40.2\% & 7.9\%\\
+\hspace{1em}Latino & 3.8\% & 2.8\% & 3.4\% & 6.5\%\\
+\rowcolor{gray!6}  \hspace{1em}Multiple & 15.5\% & 10.2\% & 13.2\% & 8.0\%\\
+\hspace{1em}Native Hawaiian or Pacific Islander & 2.3\% & 1.9\% & 2.1\% & 2.4\%\\
+\rowcolor{gray!6}  \hspace{1em}Other & 0.0\% & 0.0\% & 0.0\% & 0.8\%\\
+\hspace{1em}White & 30.1\% & 22.3\% & 26.8\% & 56.1\%\\
+\rowcolor{gray!6}  \hspace{1em}Unknown & 5.0\% & 4.5\% & 4.8\% & 6.9\%\\
+\addlinespace[0.3em]
+\multicolumn{5}{l}{\textbf{Gender}}\\
+\hspace{1em}Female & 58.6\% & 53.5\% & 56.3\% & 52.4\%\\
+\rowcolor{gray!6}  \hspace{1em}Male & 40.6\% & 45.7\% & 42.9\% & 47.2\%\\
+\hspace{1em}Multiple & 0.8\% & 0.8\% & 0.8\% & 0.4\%\\
+\bottomrule
+\multicolumn{5}{l}{\textit{Note: }}\\
+\multicolumn{5}{l}{Percentages may not add up to 100 because of missing data}\\
+\end{tabu}
+\end{table}
+In the unadjusted model the odds ratio of having diabetes was 1.34 fold
+greater (95\% CI: 1.31-1.38) for those with public housing assistance
+(table 2).
+
 \chapter{}\label{section}
 
 By far the easiest way to present tables in your thesis is to store the
@@ -482,7 +537,7 @@ Warning: Missing column names filled in: 'X1' [1]
 \chapter{Appendix}\label{appendix}
 \begin{table}
 
-\caption{\label{tab:unnamed-chunk-2}Population Demographics}
+\caption{\label{tab:unnamed-chunk-4}Population Demographics}
 \centering
 \begin{tabu} to \linewidth {>{\raggedright\arraybackslash}p{6.1cm}>{\raggedright}X>{\raggedright}X>{\raggedright}X>{\raggedright}X}
 \toprule
@@ -491,34 +546,36 @@ X1 & KCHA & SHA & Combined PHA & Non-PHA\\
 \rowcolor{gray!6}  Characteristics & N=34,514 (5.9\%) & N=27,044  (4.6\%) & N=60,919  (10.4\%) & N=523,814 (89.5\%)\\
 \addlinespace[0.3em]
 \multicolumn{5}{l}{\textbf{Age}}\\
-\hspace{1em}<5 & 6.60\% & 6.10\% & 6.40\% & 5.50\%\\
-\rowcolor{gray!6}  \hspace{1em}5-9 & 12.00\% & 10.20\% & 11.20\% & 7.00\%\\
-\hspace{1em}10-17 & 19.50\% & 14.90\% & 17.50\% & 9.80\%\\
-\rowcolor{gray!6}  \hspace{1em}18-29 & 12.50\% & 9.90\% & 11.30\% & 8.30\%\\
-\hspace{1em}30-49 & 21.00\% & 19.30\% & 20.30\% & 11.20\%\\
-\rowcolor{gray!6}  \hspace{1em}50-64 & 15.30\% & 19.90\% & 17.40\% & 9.40\%\\
-\hspace{1em}65-74 & 6.80\% & 11.50\% & 8.90\% & 28.00\%\\
-\rowcolor{gray!6}  \hspace{1em}75+ & 6.10\% & 7.90\% & 7.00\% & 20.60\%\\
+\hspace{1em}<5 & 6.6\% & 6.1\% & 6.4\% & 5.5\%\\
+\rowcolor{gray!6}  \hspace{1em}5-9 & 12.0\% & 10.2\% & 11.2\% & 7.0\%\\
+\hspace{1em}10-17 & 19.5\% & 14.9\% & 17.5\% & 9.8\%\\
+\rowcolor{gray!6}  \hspace{1em}18-29 & 12.5\% & 9.9\% & 11.3\% & 8.3\%\\
+\hspace{1em}30-49 & 21.0\% & 19.3\% & 20.3\% & 11.2\%\\
+\rowcolor{gray!6}  \hspace{1em}50-64 & 15.3\% & 19.9\% & 17.4\% & 9.4\%\\
+\hspace{1em}65-74 & 6.8\% & 11.5\% & 8.9\% & 28.0\%\\
+\rowcolor{gray!6}  \hspace{1em}75+ & 6.1\% & 7.9\% & 7.0\% & 20.6\%\\
 \hspace{1em}Median & 39.1 years & 29.0 years & 34.0 years & 62.0 years\\
 \rowcolor{gray!6}  \hspace{1em}Mean & 33.3 years & 38.7 years & 35.7 years & 50.0 years\\
 \addlinespace[0.3em]
 \multicolumn{5}{l}{\textbf{Race and Ethnicity}}\\
-\hspace{1em}American Indian or Alaska Native & 0.80\% & 1.40\% & 1.00\% & 0.80\%\\
-\rowcolor{gray!6}  \hspace{1em}Asian & 5.50\% & 11.70\% & 8.30\% & 6.90\%\\
-\hspace{1em}Asian Pacific Islander & 0.10\% & 0.20\% & 0.20\% & 3.50\%\\
-\rowcolor{gray!6}  \hspace{1em}Black/African American & 36.90\% & 44.90\% & 40.20\% & 7.90\%\\
-\hspace{1em}Latino & 3.80\% & 2.80\% & 3.40\% & 6.50\%\\
-\rowcolor{gray!6}  \hspace{1em}Multiple & 15.50\% & 10.20\% & 13.20\% & 8.00\%\\
-\hspace{1em}Native Hawaiian or Pacific Islander & 2.30\% & 1.90\% & 2.10\% & 2.40\%\\
-\rowcolor{gray!6}  \hspace{1em}Other & 0.00\% & 0.00\% & 0.00\% & 0.80\%\\
-\hspace{1em}White & 30.10\% & 22.30\% & 26.80\% & 56.10\%\\
-\rowcolor{gray!6}  \hspace{1em}Unknown & 5.00\% & 4.50\% & 4.80\% & 6.90\%\\
+\hspace{1em}American Indian or Alaska Native & 0.8\% & 1.4\% & 1.0\% & 0.8\%\\
+\rowcolor{gray!6}  \hspace{1em}Asian & 5.5\% & 11.7\% & 8.3\% & 6.9\%\\
+\hspace{1em}Asian Pacific Islander & 0.1\% & 0.2\% & 0.2\% & 3.5\%\\
+\rowcolor{gray!6}  \hspace{1em}Black/African American & 36.9\% & 44.9\% & 40.2\% & 7.9\%\\
+\hspace{1em}Latino & 3.8\% & 2.8\% & 3.4\% & 6.5\%\\
+\rowcolor{gray!6}  \hspace{1em}Multiple & 15.5\% & 10.2\% & 13.2\% & 8.0\%\\
+\hspace{1em}Native Hawaiian or Pacific Islander & 2.3\% & 1.9\% & 2.1\% & 2.4\%\\
+\rowcolor{gray!6}  \hspace{1em}Other & 0.0\% & 0.0\% & 0.0\% & 0.8\%\\
+\hspace{1em}White & 30.1\% & 22.3\% & 26.8\% & 56.1\%\\
+\rowcolor{gray!6}  \hspace{1em}Unknown & 5.0\% & 4.5\% & 4.8\% & 6.9\%\\
 \addlinespace[0.3em]
 \multicolumn{5}{l}{\textbf{Gender}}\\
-\hspace{1em}Female & 58.60\% & 53.50\% & 56.30\% & 52.40\%\\
-\rowcolor{gray!6}  \hspace{1em}Male & 40.60\% & 45.70\% & 42.90\% & 47.20\%\\
-\hspace{1em}Multiple & 0.80\% & 0.80\% & 0.80\% & 0.40\%\\
+\hspace{1em}Female & 58.6\% & 53.5\% & 56.3\% & 52.4\%\\
+\rowcolor{gray!6}  \hspace{1em}Male & 40.6\% & 45.7\% & 42.9\% & 47.2\%\\
+\hspace{1em}Multiple & 0.8\% & 0.8\% & 0.8\% & 0.4\%\\
 \bottomrule
+\multicolumn{5}{l}{\textit{Note: }}\\
+\multicolumn{5}{l}{Percentages may not add up to 100 because of missing data}\\
 \end{tabu}
 \end{table}
 \chapter*{Colophon}\label{colophon}
@@ -551,7 +608,7 @@ been organised into an R package, xxx, which is available at
 \url{https://github.com/xxx/xxx}. A hard copy of the thesis can be found
 in the University of Washington library.
 
-This version of the thesis was generated on 2020-05-21 13:38:39. The
+This version of the thesis was generated on 2020-05-21 16:04:41. The
 repository is currently at this commit:
 
 The computational environment that was used to generate this version is
