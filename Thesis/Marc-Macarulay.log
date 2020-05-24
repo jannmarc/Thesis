@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  23 MAY 2020 21:07
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  23 MAY 2020 21:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1385,7 +1385,7 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
 Here is how much of TeX's memory you used:
  25804 strings out of 481249
  467669 string characters out of 5922349
- 1172484 words of memory out of 5000000
+ 1172478 words of memory out of 5000000
  42937 multiletter control sequences out of 15000+600000
  539869 words of font info for 89 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
