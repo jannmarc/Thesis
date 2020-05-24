@@ -8,11 +8,11 @@ options(knitr.kable.NA = '')
 table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 table1%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
+kable_styling(latex_options = c("hold_position","striped"), full_width = T)%>%
   pack_rows("Age",2,11, bold= T )%>%
   pack_rows("Race and Ethnicity",12,21, bold= T)%>%
   pack_rows("Gender",22,24, bold= T)%>%
   column_spec(1,width = "6.1cm")%>%
-  kable_styling(latex_options = c("striped","hold_position"), full_width = T)%>%  
   footnote(general = "Percentages may not add up to 100 because of missing data")
 ```
 
