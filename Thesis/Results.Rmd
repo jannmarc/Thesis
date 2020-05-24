@@ -8,7 +8,7 @@ options(knitr.kable.NA = '')
 table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 table1%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
-kable_styling(latex_options = c("hold_position","striped"), full_width = T)%>%
+kable_styling(latex_options = "striped", full_width = T)%>%
   pack_rows("Age",2,11, bold= T )%>%
   pack_rows("Race and Ethnicity",12,21, bold= T)%>%
   pack_rows("Gender",22,24, bold= T)%>%
@@ -23,7 +23,6 @@ Housing Status | Model 1          | Model 2
 Non-PHA        | Referent         | Referent
 PHA            | 1.34 (95% CI:1.31-1.38) | 1.94 (95% CI:1.88-1.99)
 Table: (\#tab:inher) Association between PHA Status and Diabetes
-
 
 
 In the second analysis, the association between diabetes status and the specific public housing authorities, the crude model showed that the odds of meeting the definiton of diabetes were 1.28 times greater among KCHA residents and 1.42 times greater among SHA residents. The adjusted model revealed that among KCHA residents the odds of meeting the definition of diabetes were 2.16 times higher and 1.70 for SHA residents compared to non-PHA residents.
