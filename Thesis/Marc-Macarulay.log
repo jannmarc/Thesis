@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  21 MAY 2020 16:04
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  23 MAY 2020 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1319,37 +1319,37 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 <<2>>
 [4
 
-] [5] [6] [7]
+] [5] [6] [7] [8]
 <<3>>
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 381.
-[8
+[9
 
-] [9]
+] [10] [11]
 <<4>>
-[10
+LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 10.25006pt on input line 456.
+[12
 
 ]
 
-LaTeX Warning: Reference `tab:maxdelays' on page 11 undefined on input line 513
+LaTeX Warning: Reference `tab:maxdelays' on page 13 undefined on input line 533
 .
 
-[11] [12
+[13] [14
 
 ]
 <<A>>
-[13
+[15
 
-] [14]
-Overfull \hbox (9.40807pt too wide) in paragraph at lines 617--617
+] [16]
+Overfull \hbox (9.40807pt too wide) in paragraph at lines 635--635
 []\TU/SourceCodePro(0)/m/n/12 - Session info ----------------------------------
 -----------------------------[] 
  []
 
-[15
+[17
 
 ]
-Overfull \hbox (9.40808pt too wide) in paragraph at lines 629--629
+Overfull \hbox (9.40808pt too wide) in paragraph at lines 647--647
 []\TU/SourceCodePro(0)/m/n/12 - Packages --------------------------------------
 -----------------------------[] 
  []
@@ -1357,19 +1357,19 @@ Overfull \hbox (9.40808pt too wide) in paragraph at lines 629--629
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[16]
+[18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[17] [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 743.
-[19
+[19] [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 761.
+[21
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 743.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 761.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 743.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 743.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 761.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 761.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
 (rerunfilecheck)             Checksum: AA52DD493CDFF16F6B65D576B2BCF075;942.
 
@@ -1387,12 +1387,12 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25808 strings out of 481249
- 467725 string characters out of 5922349
- 1170467 words of memory out of 5000000
- 42941 multiletter control sequences out of 15000+600000
+ 25809 strings out of 481249
+ 467730 string characters out of 5922349
+ 1171511 words of memory out of 5000000
+ 42942 multiletter control sequences out of 15000+600000
  539869 words of font info for 89 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 61i,15n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,16n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Marc-Macarulay.pdf (26 pages).
+Output written on Marc-Macarulay.pdf (28 pages).
