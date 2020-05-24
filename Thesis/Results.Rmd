@@ -3,13 +3,11 @@
 
 Among the study participants, the proportion of people in the PHA group were 10.4% and of that, 5.9% were with KCHA and 4.6% with SHA. The majority, 89.5% did not have any public housing assitance in 2017. Overall, 9.9% were considered to meet the definiton of diabetes and the rest, 90.1% were not considered to have diabetes.
 
-```{r, echo=FALSE,
-table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
-```
 
 
 ```{r, echo=FALSE}
 options(knitr.kable.NA = '')
+table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 table1%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
   kable_styling(latex_options = "striped", full_width = T)%>%  
