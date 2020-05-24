@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  23 MAY 2020 20:23
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  23 MAY 2020 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1330,12 +1330,9 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [9
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[10] [11]
+] [10] [11]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 474.
+(Font)              scaled to size 10.25006pt on input line 482.
 [12
 
 ]
@@ -1343,7 +1340,7 @@ LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 [13
 
 ]
-Overfull \hbox (9.40807pt too wide) in paragraph at lines 524--524
+Overfull \hbox (9.40807pt too wide) in paragraph at lines 532--532
 []\TU/SourceCodePro(0)/m/n/12 - Session info ----------------------------------
 -----------------------------[] 
  []
@@ -1351,7 +1348,7 @@ Overfull \hbox (9.40807pt too wide) in paragraph at lines 524--524
 [14
 
 ]
-Overfull \hbox (9.40808pt too wide) in paragraph at lines 536--536
+Overfull \hbox (9.40808pt too wide) in paragraph at lines 544--544
 []\TU/SourceCodePro(0)/m/n/12 - Packages --------------------------------------
 -----------------------------[] 
  []
@@ -1363,15 +1360,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [16] [17]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 650.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 658.
 [18
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 650.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 658.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 650.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 650.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 658.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 658.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
 (rerunfilecheck)             Checksum: 9E630B3B273CF233265E9A5233B5E8F0;906.
 
@@ -1389,10 +1386,10 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25803 strings out of 481249
- 467664 string characters out of 5922349
- 1170435 words of memory out of 5000000
- 42936 multiletter control sequences out of 15000+600000
+ 25804 strings out of 481249
+ 467669 string characters out of 5922349
+ 1170478 words of memory out of 5000000
+ 42937 multiletter control sequences out of 15000+600000
  539869 words of font info for 89 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  61i,16n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
