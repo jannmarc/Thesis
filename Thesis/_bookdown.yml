@@ -1,5 +1,5 @@
 book_filename: "Marc Macarulay"
 chapter_name: "Chapter "
-rmd_files: ["ThesisOutput.Rmd", "Background.Rmd", "Methods.Rmd", "Results.Rmd", "Discussion.Rmd", "Appendixes.Rmd", "98-colophon.Rmd", "99-references.Rmd"]
+rmd_files: ["ThesisOutput.Rmd", "Background.Rmd", "Methods.Rmd", "Results.Rmd", "Discussion.Rmd", "Appendixes.Rmd", "99-references.Rmd"]
 download: [["Marc Macarulay.pdf", "PDF"], ["Marc Macarulay.epub", "EPUB"], ["Marc Macarulay.docx", "Word"]]
 delete_merged_file: true
