@@ -148,7 +148,7 @@ Among the study participants, the proportion of people that were in the PHA cate
 options(knitr.kable.NA = '')
 table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 table1%>%
-knitr::kable(format = c("latex","hold_position"), booktabs= T, caption= "Population Demographics")%>%
+kable(format = c("latex","hold_position"), booktabs= T, caption= "Population Demographics")%>%
 kable_styling(font_size =  12 , full_width = TRUE)%>%
   pack_rows("Age",2,11, bold= TRUE )%>%
   pack_rows("Race and Ethnicity",12,21, bold= TRUE)%>%

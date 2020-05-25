@@ -8,7 +8,7 @@ Among the study participants, the proportion of people that were in the PHA cate
 options(knitr.kable.NA = '')
 table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 table1%>%
-kable(format = c("latex","hold_position"), booktabs= T, caption= "Population Demographics")%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
 kable_styling(font_size =  12 , full_width = TRUE)%>%
   pack_rows("Age",2,11, bold= TRUE )%>%
   pack_rows("Race and Ethnicity",12,21, bold= TRUE)%>%
@@ -34,3 +34,4 @@ Non-PHA | Referent             | Referent
 KCHA    | 1.28 (CI: 1.24-1.33) | 2.16 (CI: 2.09-2.25)
 SHA     | 1.42 (CI: 1.38-1.48) | 1.70 (CI: 1.64-1.77)
 Table: (\#tab:inher) Association between the Public Housing Authorities and Diabetes
+
