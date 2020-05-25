@@ -8,7 +8,18 @@ If you feel it necessary to include an appendix, it goes here.
 
 #Appendix
 
-
+```{r, echo=FALSE}
+options(knitr.kable.NA = '')
+table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
+table1%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
+kable_styling(font_size =  12 , full_width = TRUE)%>%
+  pack_rows("Age",2,11, bold= TRUE )%>%
+  pack_rows("Race and Ethnicity",12,21, bold= TRUE)%>%
+  pack_rows("Gender",22,24, bold= TRUE)%>%
+  column_spec(1,width = "6.1cm")%>%
+  footnote(general = "Percentages may not add up to 100 because of missing data")
+```
 
 ```{r, echo=FALSE}
 table2<-readr::read_csv("diabetes_crude_test_Output.csv", col_types = readr::cols())
@@ -38,4 +49,3 @@ table5%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Adjusted PHA Agency Regression Model")%>%
   kable_styling(font_size =  12 , full_width = T)
 ```
-

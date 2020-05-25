@@ -1,20 +1,10 @@
 
 # Results {#ref-labels}
 ## Descriptive Statistics
-Among the study participants, the proportion of people that were in the PHA category was 10.4% and of that, 5.9% were with KCHA and 4.6% with SHA. The majority, 89.5% did not have any public housing assitance in 2017. Descriptive analysis revealed that PHA population had a greater proportion of people meeting the definition of diabetes at 12.7% compared to the non-PHA group with 9.6%. Overall, 9.9% were considered to meet the definiton of diabetes and the rest, 90.1% were not considered to have diabetes. Additionally, the population age distribution were different bewtween PHA status, the non-PHA category had an older population with a median  of age of 62 and a mean age of 50 compared to the PHA population with a median and mean age of 34 and 35.7 respectively.
+Among the study participants, the proportion of people that were in the PHA category was 10.4% and of that, 5.9% were with KCHA and 4.6% with SHA (**See Table 1**). The majority of the study participants, 89.5% did not have any public housing assitance in 2017. Descriptive analysis revealed that PHA population had a greater proportion of people meeting the definition of diabetes at 12.7% compared to the non-PHA group with 9.6%. Overall, 9.9% were considered to meet the definiton of diabetes and the rest, 90.1% were not considered to have diabetes.
 
-```{r, echo=FALSE}
-options(knitr.kable.NA = '')
-table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
-table1%>%
-knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
-kable_styling(font_size =  12 , full_width = TRUE)%>%
-  pack_rows("Age",2,11, bold= TRUE )%>%
-  pack_rows("Race and Ethnicity",12,21, bold= TRUE)%>%
-  pack_rows("Gender",22,24, bold= TRUE)%>%
-  column_spec(1,width = "6.1cm")%>%
-  footnote(general = "Percentages may not add up to 100 because of missing data")
-```
+Additionally, the population age distribution were different bewtween PHA status, the non-PHA category had an older population with a median  of age of 62 and a mean age of 50 compared to the PHA population with a median and mean age of 34 and 35.7 respectively. The PHA group were more racial and ethnically diverse than the non-PHA group. However, the gender distribution between the two groups were similar. 
+
 ## Public Housing and Diabetes
 For the primary analysis, the assocation between diabetes status and public housing assistance, the crude model showed that the odds ratio of having diabetes was 1.34 fold greater for those with public housing assistance (table 2). In the adjusted model, PHA residents were 94% more likely to meet the definition of diabetes compared to those that were non-PHA residents. (Table 3)
 
