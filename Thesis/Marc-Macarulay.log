@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  24 MAY 2020 19:35
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  24 MAY 2020 19:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1372,7 +1372,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 748.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 748.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 748.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
-(rerunfilecheck)             Checksum: 382AB1BA2FAEA67621DDDA2CFE496B64;1327.
+(rerunfilecheck)             Checksum: 9F7E4A15CB1B374D256A0D3C24CC2FD0;1276.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 64.17pt have occurred.
@@ -1388,10 +1388,10 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25812 strings out of 481249
- 467819 string characters out of 5922349
- 1173791 words of memory out of 5000000
- 42945 multiletter control sequences out of 15000+600000
+ 25811 strings out of 481249
+ 467813 string characters out of 5922349
+ 1173760 words of memory out of 5000000
+ 42944 multiletter control sequences out of 15000+600000
  539869 words of font info for 89 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  61i,16n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s

@@ -28,7 +28,6 @@ Table: (\#tab:inher) Association between PHA Status and Diabetes
 ## Public Housing Authorities and Diabetes
 In the second analysis, the association between diabetes status and the specific public housing authorities, the crude model showed that the odds of meeting the definiton of diabetes were 1.28 times greater among KCHA residents and 1.42 times greater among SHA residents. The adjusted model revealed that among KCHA residents the odds of meeting the definition of diabetes were 2.16 times higher and 1.70 for SHA residents compared to non-PHA residents.
 
-
 Status  | Model 1              | Model 2
 --------|----------------------|---------------------
 Non-PHA | Referent             | Referent
