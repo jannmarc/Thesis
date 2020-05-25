@@ -1,5 +1,4 @@
-# Methods {#math-sci}
-
+# Methods {}
 ## Study Setting and Study Design
 The current study investigates whether public housing is asociated with risk of diabetes status among King County, WA residents who were enrolled in Medicare and Medicaid. This study uses a descriptive cross-sectional design. The cross-sectional design is appropriate because it allows for an estimate of a dichotomous disease outcome at a particular point in time [@greenland1988].
 
