@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 14:14
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 14:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1333,155 +1333,26 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 
 ] [14]
 <<A>>
-LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 570.
-
-Overfull \hbox (18.651pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 gender_meMale|  
- []
-
-
-Overfull \hbox (36.123pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 gender_meMultiple|  
- []
-
-
-Overfull \hbox (29.535pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meAsian|  
- []
-
-
-Overfull \hbox (46.23901pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meAsian_PI|  
- []
-
-
-Overfull \hbox (28.143pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meBlack|  
- []
-
-
-Overfull \hbox (34.167pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meLatino|  
- []
-
-
-Overfull \hbox (43.755pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meMultiple|  
- []
-
-
-Overfull \hbox (37.839pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meNH/PI|  
- []
-
-
-Overfull \hbox (31.155pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meOther|  
- []
-
-
-Overfull \hbox (51.039pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meUnknown|  
- []
-
-
-Overfull \hbox (30.723pt too wide) in paragraph at lines 616--616
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meWhite|  
- []
-
 [15
 
-]
-Overfull \hbox (32.571pt too wide) in paragraph at lines 634--634
-[]\TU/EBGaramond(3)/b/n/12 pha_agencyKCHA|  
- []
+] [16] [17]
+LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
+(Font)              scaled to size 10.25006pt on input line 679.
 
-
-Overfull \hbox (22.29901pt too wide) in paragraph at lines 634--634
-[]\TU/EBGaramond(3)/b/n/12 pha_agencySHA|  
- []
-
-
-Overfull \hbox (32.571pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 pha_agencyKCHA|  
- []
-
-
-Overfull \hbox (22.29901pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 pha_agencySHA|  
- []
-
-
-Overfull \hbox (18.651pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 gender_meMale|  
- []
-
-
-Overfull \hbox (36.123pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 gender_meMultiple|  
- []
-
-
-Overfull \hbox (29.535pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meAsian|  
- []
-
-
-Overfull \hbox (46.23901pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meAsian_PI|  
- []
-
-
-Overfull \hbox (28.143pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meBlack|  
- []
-
-
-Overfull \hbox (34.167pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meLatino|  
- []
-
-
-Overfull \hbox (43.755pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meMultiple|  
- []
-
-
-Overfull \hbox (37.839pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meNH/PI|  
- []
-
-
-Overfull \hbox (31.155pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meOther|  
- []
-
-
-Overfull \hbox (51.039pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meUnknown|  
- []
-
-
-Overfull \hbox (30.723pt too wide) in paragraph at lines 666--666
-[]\TU/EBGaramond(3)/b/n/12 race_eth_meWhite|  
- []
-
-[16] [17]
-Overfull \hbox (75.60281pt too wide) in paragraph at lines 694--697
+Overfull \hbox (75.60281pt too wide) in paragraph at lines 682--685
  \TU/EBGaramond(3)/b/n/12 (HUD). Retrieved from [][]https://www.hud.gov/program
 {\_}offices/public{\_}indian{\_}housing/systems/pic/50058[][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 713.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 701.
 [18
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 713.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 701.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 713.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 713.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 701.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 701.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
 (rerunfilecheck)             Checksum: 857BD5991C136057D38785C8575F0F20;1227.
 
@@ -1501,7 +1372,7 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
 Here is how much of TeX's memory you used:
  25819 strings out of 481249
  467833 string characters out of 5922349
- 1179930 words of memory out of 5000000
+ 1178930 words of memory out of 5000000
  42953 multiletter control sequences out of 15000+600000
  539861 words of font info for 88 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191

@@ -567,101 +567,89 @@ who obtain health care in safety-net health settings
 \appendix
 
 \chapter{Appendix}\label{appendix}
-\begin{verbatim}
-Warning: Missing column names filled in: 'X1' [1]
-\end{verbatim}
 \begin{table}
 
 \caption{\label{tab:unnamed-chunk-2}Crude PHA Regression Model}
 \centering
 \fontsize{12}{14}\selectfont
-\begin{tabu} to \linewidth {>{\raggedleft}X>{\raggedright}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X}
+\begin{tabu} to \linewidth {>{\raggedright}X>{\raggedleft}X>{\raggedleft}X>{\raggedright}X>{\raggedleft}X>{\raggedleft}X}
 \toprule
-X1 & term & estimate & std.error & p.value & conf.low & conf.high\\
+Term & Odds Ratio & SE & P-Value & 95\% CI Low & 95\% CI High\\
 \midrule
-1 & (Intercept) & 0.1070664 & 0.0046742 & 0 & 0.1060887 & 0.1080507\\
-2 & pha & 1.3484241 & 0.0130078 & 0 & 1.3144007 & 1.3831620\\
+(Intercept) & 0.11 & 0.00 & 0 & 0.11 & 0.11\\
+pha & 1.35 & 0.01 & <0.05 & 1.31 & 1.38\\
 \bottomrule
 \end{tabu}
 \end{table}
-\begin{verbatim}
-Warning: Missing column names filled in: 'X1' [1]
-\end{verbatim}
 \begin{table}
 
 \caption{\label{tab:unnamed-chunk-3}Adjusted PHA Regression Model}
 \centering
 \fontsize{12}{14}\selectfont
-\begin{tabu} to \linewidth {>{\raggedleft}X>{\raggedright}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X}
+\begin{tabu} to \linewidth {>{\raggedright}X>{\raggedleft}X>{\raggedleft}X>{\raggedright}X>{\raggedleft}X>{\raggedleft}X}
 \toprule
-X1 & term & estimate & std.error & p.value & conf.low & conf.high\\
+Term & Odds Ratio & SE & P-Value & 95\% CI Low & 95\% CI High\\
 \midrule
-1 & (Intercept) & 0.0157012 & 0.0476279 & 0.0000000 & 0.0142911 & 0.0172249\\
-2 & pha & 1.9359775 & 0.0149052 & 0.0000000 & 1.8801581 & 1.9932848\\
-3 & age\_2017 & 1.0435558 & 0.0002501 & 0.0000000 & 1.0430452 & 1.0440684\\
-4 & gender\_meMale & 1.1684336 & 0.0091507 & 0.0000000 & 1.1476635 & 1.1895779\\
-5 & gender\_meMultiple & 1.3341876 & 0.0816027 & 0.0004105 & 1.1336163 & 1.5611936\\
+(Intercept) & 0.02 & 0.05 & <0.05 & 0.01 & 0.02\\
+pha & 1.94 & 0.01 & <0.05 & 1.88 & 1.99\\
+Age & 1.04 & 0.00 & <0.05 & 1.04 & 1.04\\
+Male & 1.17 & 0.01 & <0.05 & 1.15 & 1.19\\
+Multiple & 1.33 & 0.08 & <0.05 & 1.13 & 1.56\\
 \addlinespace
-6 & race\_eth\_meAsian & 1.0180075 & 0.0475469 & 0.7073918 & 0.9280570 & 1.1182279\\
-7 & race\_eth\_meAsian\_PI & 0.3687743 & 0.0505270 & 0.0000000 & 0.3341912 & 0.4074030\\
-8 & race\_eth\_meBlack & 0.8211619 & 0.0470653 & 0.0000283 & 0.7493245 & 0.9011681\\
-9 & race\_eth\_meLatino & 0.6436274 & 0.0507316 & 0.0000000 & 0.5830327 & 0.7113288\\
-10 & race\_eth\_meMultiple & 0.8111040 & 0.0494238 & 0.0000228 & 0.7366709 & 0.8941786\\
+Asian & 1.02 & 0.05 & 0.71 & 0.93 & 1.12\\
+Asian PI & 0.37 & 0.05 & <0.05 & 0.33 & 0.41\\
+Black & 0.82 & 0.05 & <0.05 & 0.75 & 0.90\\
+Latino & 0.64 & 0.05 & <0.05 & 0.58 & 0.71\\
+Multiple & 0.81 & 0.05 & <0.05 & 0.74 & 0.89\\
 \addlinespace
-11 & race\_eth\_meNH/PI & 1.5422970 & 0.0523289 & 0.0000000 & 1.3926716 & 1.7097983\\
-12 & race\_eth\_meOther & 0.4179915 & 0.0633487 & 0.0000000 & 0.3691667 & 0.4732450\\
-13 & race\_eth\_meUnknown & 0.6135865 & 0.0493343 & 0.0000000 & 0.5573752 & 0.6763105\\
-14 & race\_eth\_meWhite & 0.3641169 & 0.0457041 & 0.0000000 & 0.3331648 & 0.3985457\\
+NH/PI & 1.54 & 0.05 & <0.05 & 1.39 & 1.71\\
+Other & 0.42 & 0.06 & <0.05 & 0.37 & 0.47\\
+Unknown & 0.61 & 0.05 & <0.05 & 0.56 & 0.68\\
+White & 0.36 & 0.05 & <0.05 & 0.33 & 0.40\\
 \bottomrule
 \end{tabu}
 \end{table}
-\begin{verbatim}
-Warning: Missing column names filled in: 'X1' [1]
-\end{verbatim}
 \begin{table}
 
 \caption{\label{tab:unnamed-chunk-4}Crude PHA Agency Regression Model}
 \centering
 \fontsize{12}{14}\selectfont
-\begin{tabu} to \linewidth {>{\raggedleft}X>{\raggedright}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X}
+\begin{tabu} to \linewidth {>{\raggedright}X>{\raggedleft}X>{\raggedleft}X>{\raggedright}X>{\raggedleft}X>{\raggedleft}X}
 \toprule
-X1 & term & estimate & std.error & p.value & conf.low & conf.high\\
+Term & Odds Ratio & SE & P-Value & 95\% CI Low & 95\% CI High\\
 \midrule
-1 & (Intercept) & 0.1070664 & 0.0046742 & 0 & 0.1060887 & 0.1080507\\
-2 & pha\_agencyKCHA & 1.2877448 & 0.0171445 & 0 & 1.2450392 & 1.3315915\\
-3 & pha\_agencySHA & 1.4268779 & 0.0185335 & 0 & 1.3757804 & 1.4794552\\
+(Intercept) & 0.11 & 0.00 & <0.05 & 0.11 & 0.11\\
+KCHA & 1.29 & 0.02 & <0.05 & 1.25 & 1.33\\
+SHA & 1.43 & 0.02 & <0.05 & 1.38 & 1.48\\
 \bottomrule
 \end{tabu}
 \end{table}
-\begin{verbatim}
-Warning: Missing column names filled in: 'X1' [1]
-\end{verbatim}
 \begin{table}
 
 \caption{\label{tab:unnamed-chunk-5}Adjusted PHA Agency Regression Model}
 \centering
 \fontsize{12}{14}\selectfont
-\begin{tabu} to \linewidth {>{\raggedleft}X>{\raggedright}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X>{\raggedleft}X}
+\begin{tabu} to \linewidth {>{\raggedright}X>{\raggedleft}X>{\raggedleft}X>{\raggedright}X>{\raggedleft}X>{\raggedleft}X}
 \toprule
-X1 & term & estimate & std.error & p.value & conf.low & conf.high\\
+Term & Odds Ratio & SE & P-Value & 95\% CI Low & 95\% CI High\\
 \midrule
-1 & (Intercept) & 0.0156859 & 0.0476039 & 0.0000000 & 0.0142778 & 0.0172073\\
-2 & pha\_agencyKCHA & 2.1689966 & 0.0191133 & 0.0000000 & 2.0890501 & 2.2515841\\
-3 & pha\_agencySHA & 1.7077899 & 0.0205326 & 0.0000000 & 1.6402374 & 1.7777161\\
-4 & age\_2017 & 1.0436910 & 0.0002507 & 0.0000000 & 1.0431791 & 1.0442049\\
-5 & gender\_meMale & 1.1714753 & 0.0091566 & 0.0000000 & 1.1506380 & 1.1926883\\
+(Intercept) & 0.02 & 0.05 & <0.05 & 0.01 & 0.02\\
+KCHA & 2.17 & 0.02 & <0.05 & 2.09 & 2.25\\
+SHA & 1.71 & 0.02 & <0.05 & 1.64 & 1.78\\
+Age & 1.04 & 0.00 & <0.05 & 1.04 & 1.04\\
+Male & 1.17 & 0.01 & <0.05 & 1.15 & 1.19\\
 \addlinespace
-6 & gender\_meMultiple & 1.3397458 & 0.0815494 & 0.0003351 & 1.1384596 & 1.5675366\\
-7 & race\_eth\_meAsian & 1.0169057 & 0.0475211 & 0.7242557 & 0.9270997 & 1.1169617\\
-8 & race\_eth\_meAsian\_PI & 0.3651872 & 0.0505146 & 0.0000000 & 0.3309486 & 0.4034303\\
-9 & race\_eth\_meBlack & 0.8167829 & 0.0470454 & 0.0000169 & 0.7453581 & 0.8963279\\
-10 & race\_eth\_meLatino & 0.6381525 & 0.0507174 & 0.0000000 & 0.5780893 & 0.7052584\\
+Multiple & 1.34 & 0.08 & <0.05 & 1.14 & 1.57\\
+Asian & 1.02 & 0.05 & 0.72 & 0.93 & 1.12\\
+Asian PI & 0.37 & 0.05 & <0.05 & 0.33 & 0.40\\
+Black & 0.82 & 0.05 & <0.05 & 0.75 & 0.90\\
+Latino & 0.64 & 0.05 & <0.05 & 0.58 & 0.71\\
 \addlinespace
-11 & race\_eth\_meMultiple & 0.8020838 & 0.0494161 & 0.0000081 & 0.7284895 & 0.8842212\\
-12 & race\_eth\_meNH/PI & 1.5294696 & 0.0523138 & 0.0000000 & 1.3811296 & 1.6955278\\
-13 & race\_eth\_meOther & 0.4138429 & 0.0633412 & 0.0000000 & 0.3655080 & 0.4685410\\
-14 & race\_eth\_meUnknown & 0.6084003 & 0.0493199 & 0.0000000 & 0.5526798 & 0.6705754\\
-15 & race\_eth\_meWhite & 0.3602648 & 0.0456929 & 0.0000000 & 0.3296474 & 0.3943208\\
+Multiple & 0.80 & 0.05 & <0.05 & 0.73 & 0.88\\
+NH/PI & 1.53 & 0.05 & <0.05 & 1.38 & 1.70\\
+Other & 0.41 & 0.06 & <0.05 & 0.37 & 0.47\\
+Unknown & 0.61 & 0.05 & <0.05 & 0.55 & 0.67\\
+White & 0.36 & 0.05 & <0.05 & 0.33 & 0.39\\
 \bottomrule
 \end{tabu}
 \end{table}
