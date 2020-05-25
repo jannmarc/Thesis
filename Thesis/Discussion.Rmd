@@ -2,9 +2,11 @@
 
 ##Discussion
 
-Findings from this study indicate that public housing assistance was associated with diabetes status. Even after adjusting for potential confounders (age, gender, race and ethinicity) the effect of public housing on diabetes status were increased.
+Findings from this study indicate that public housing assistance was associated with diabetes status. Even after adjusting for potential confounders (age, gender, race and ethinicity) the effect of public housing on diabetes status were increased. Furthermore, findings also suggest that when divided into PHA agency in the crude model, KCHA residents where were less likely to meet the definition of diabetes than SHA residents but still more likely than the non-PHA group. After adjust for potential confounders, the effect of association between PHA agency on diabetes saw a greater increase for KCHA residents than SHA residents.  
 
+The increased risk of diabetes observed in our study in relation to public housing had similar results to another study that compared public housing residents in Boston, MA to other city residents for health outcomes including diabetes that revealed worse health outcomes for public housing residents [@Digenis-Bury2008]. A potential explanation of these findings may be attributed to the fact that public housing resisdents were more likely to be racial and ethnic minorities and the prevalance of diabetes is often greater for racial and ethinic populations[@].
 
+These findings suggest that public housing may be an avenue in which diabetes management may be of higher priority.  
 
 ## Limitations
 

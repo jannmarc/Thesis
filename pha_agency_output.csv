@@ -1,0 +1,4 @@
+Term,Odds Ratio,SE,P-Value,95% CI Low,95% CI High
+(Intercept),0.11,0.00,<0.05,0.11,0.11
+KCHA,1.29,0.02,<0.05,1.25,1.33
+SHA,1.43,0.02,<0.05,1.38,1.48
