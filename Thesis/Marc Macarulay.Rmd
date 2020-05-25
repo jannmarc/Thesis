@@ -144,11 +144,11 @@ Two models were used to determine the odds ratios (OR) and coresponding 95% conf
 ## Descriptive Statistics
 Among the study participants, the proportion of people that were in the PHA category was 10.4% and of that, 5.9% were with KCHA and 4.6% with SHA. The majority, 89.5% did not have any public housing assitance in 2017. Descriptive analysis revealed that PHA population had a greater proportion of people meeting the definition of diabetes at 12.7% compared to the non-PHA group with 9.6%. Overall, 9.9% were considered to meet the definiton of diabetes and the rest, 90.1% were not considered to have diabetes. Additionally, the population age distribution were different bewtween PHA status, the non-PHA category had an older population with a median  of age of 62 and a mean age of 50 compared to the PHA population with a median and mean age of 34 and 35.7 respectively.
 
-  ```{r, echo=FALSE}
+```{r, echo=FALSE}
 options(knitr.kable.NA = '')
 table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
 table1%>%
-knitr::kable(format = c("latex","hold_position") booktabs= T, caption= "Population Demographics")%>%
+knitr::kable(format = c("latex","hold_position"), booktabs= T, caption= "Population Demographics")%>%
 kable_styling(font_size =  12 , full_width = TRUE)%>%
   pack_rows("Age",2,11, bold= TRUE )%>%
   pack_rows("Race and Ethnicity",12,21, bold= TRUE)%>%
