@@ -848,24 +848,7 @@
    \def\makelabel##1{\footnotesize\uppercase{##1:}\hfill}\uwsinglespace}}
   {\end{list}}
 
-%
-%  Colophon
-%
-% %  normal parameters, based on abstract
-% \def\textofColophon#1{\gdef\@textofColophon{#1}}  \textofColophon{Colophon}
-%
-% \newsavebox\col@savebox
-% \long\def\colophon#1{
-%    \cleardoublepage
-%    #1
-%    \vfill\clearpage
-%    \let\colophon\relax}
-% %
-\def\colophon{                   % Prints the colophon page
-    \cleardoublepage
-    \vspace{7pc}
-     \vspace{2pc}\relax
-  \let\colophon\relax}
+
 
 
 % End of the thesis style
@@ -925,5 +908,5 @@
 \setmonofont[Scale=MatchLowercase]{Source Code Pro}
 
 
- \usepackage{tabu} 
+ \usepackage{tabu}
  \usepackage{colortbl}
