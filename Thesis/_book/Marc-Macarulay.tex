@@ -183,6 +183,10 @@
 
 \section{Public Housing}\label{public-housing}
 
+Housing is an important determinant of health({\textbf{???}}). Health
+outcomes are affected by housing quality, safety, stability and
+affordability({\textbf{???}}).
+
 \section{Diabetes}\label{diabetes}
 
 Diabetes is a chronic disease that is characterized by an inability of
@@ -360,21 +364,25 @@ assess the risk of diabetes status in relation to public housing
 assistance status. This analysis is appropriate for this study because
 logistic reregression analyses allows for measuring the association of
 an effect towards a binomial response variable by combining multiple
-variables to avoid confounding ({\textbf{???}}). Two models were used to
-determine the odds ratios (OR) and coresponding 95\% confidence
-intervals for the association between public housing assistance and
-diabetes status. The models used were the unadjusted model, without any
-other variables included in the analysis and the adjusted model
-including age, race and ethnicity and gender variables. In addition,
-models were fit to determine the odds of diabetes for each of the public
-housing authority. Similarly, the unadjusted model and the adjusted
-model that included age, race and ethinicity and gender variables were
-used to determine the association for the second analysis. Findings were
-statistical significant if the estimates did not cross the the
-confidence intervals and p-values were below \textless{}0.05 cutoff.
-Analyses were conducted using R version 3.6.0.
+variables to avoid confounding ({\textbf{???}}).
+
+Two models were used to determine the odds ratios (OR) and coresponding
+95\% confidence intervals for the association between public housing
+assistance and diabetes status. The models used were the unadjusted
+model, without any other variables included in the analysis and the
+adjusted model including age, race and ethnicity and gender variables.
+In addition, models were fit to determine the odds ratio of diabetes
+status for each of the public housing authority. Similarly, the
+unadjusted model and the adjusted model that included age, race and
+ethinicity and gender variables were used to determine the association
+for the second analysis. Findings were statistical significant if the
+estimates did not cross the the confidence intervals and p-values were
+below \textless{}0.05 cutoff. Analyses were conducted using R version
+3.6.0.
 
 \chapter{Results}\label{ref-labels}
+
+\section{Descriptive Statistics}\label{descriptive-statistics}
 
 Among the study participants, the proportion of people that were in the
 PHA category was 10.4\% and of that, 5.9\% were with KCHA and 4.6\% with
@@ -389,49 +397,51 @@ had an older population with a median of age of 62 and a mean age of 50
 compared to the PHA population with a median and mean age of 34 and 35.7
 respectively.
 \begin{table}
+  
+  \caption{\label{tab:unnamed-chunk-1}Population Demographics}
+  \centering
+  \fontsize{12}{14}\selectfont
+  \begin{tabu} to \linewidth {>{\raggedright\arraybackslash}p{6.1cm}>{\raggedright}X>{\raggedright}X>{\raggedright}X>{\raggedright}X}
+  \toprule
+  Characteristics & KCHA & SHA & Combined PHA & Non-PHA\\
+  \midrule
+   & N=34,514 (5.9\%) & N=27,044  (4.6\%) & N=60,919  (10.4\%) & N=523,814 (89.5\%)\\
+  \addlinespace[0.3em]
+  \multicolumn{5}{l}{\textbf{Age}}\\
+  \hspace{1em}<5 & 6.6\% & 6.1\% & 6.4\% & 5.5\%\\
+  \hspace{1em}5-9 & 12.0\% & 10.2\% & 11.2\% & 7.0\%\\
+  \hspace{1em}10-17 & 19.5\% & 14.9\% & 17.5\% & 9.8\%\\
+  \hspace{1em}18-29 & 12.5\% & 9.9\% & 11.3\% & 8.3\%\\
+  \hspace{1em}30-49 & 21.0\% & 19.3\% & 20.3\% & 11.2\%\\
+  \hspace{1em}50-64 & 15.3\% & 19.9\% & 17.4\% & 9.4\%\\
+  \hspace{1em}65-74 & 6.8\% & 11.5\% & 8.9\% & 28.0\%\\
+  \hspace{1em}75+ & 6.1\% & 7.9\% & 7.0\% & 20.6\%\\
+  \hspace{1em}Median & 39.1 years & 29.0 years & 34.0 years & 62.0 years\\
+  \hspace{1em}Mean & 33.3 years & 38.7 years & 35.7 years & 50.0 years\\
+  \addlinespace[0.3em]
+  \multicolumn{5}{l}{\textbf{Race and Ethnicity}}\\
+  \hspace{1em}American Indian or Alaska Native & 0.8\% & 1.4\% & 1.0\% & 0.8\%\\
+  \hspace{1em}Asian & 5.5\% & 11.7\% & 8.3\% & 6.9\%\\
+  \hspace{1em}Asian Pacific Islander & 0.1\% & 0.2\% & 0.2\% & 3.5\%\\
+  \hspace{1em}Black/African American & 36.9\% & 44.9\% & 40.2\% & 7.9\%\\
+  \hspace{1em}Latino & 3.8\% & 2.8\% & 3.4\% & 6.5\%\\
+  \hspace{1em}Multiple & 15.5\% & 10.2\% & 13.2\% & 8.0\%\\
+  \hspace{1em}Native Hawaiian or Pacific Islander & 2.3\% & 1.9\% & 2.1\% & 2.4\%\\
+  \hspace{1em}Other & 0.0\% & 0.0\% & 0.0\% & 0.8\%\\
+  \hspace{1em}White & 30.1\% & 22.3\% & 26.8\% & 56.1\%\\
+  \hspace{1em}Unknown & 5.0\% & 4.5\% & 4.8\% & 6.9\%\\
+  \addlinespace[0.3em]
+  \multicolumn{5}{l}{\textbf{Gender}}\\
+  \hspace{1em}Female & 58.6\% & 53.5\% & 56.3\% & 52.4\%\\
+  \hspace{1em}Male & 40.6\% & 45.7\% & 42.9\% & 47.2\%\\
+  \hspace{1em}Multiple & 0.8\% & 0.8\% & 0.8\% & 0.4\%\\
+  \bottomrule
+  \multicolumn{5}{l}{\textit{Note: }}\\
+  \multicolumn{5}{l}{Percentages may not add up to 100 because of missing data}\\
+  \end{tabu}
+  \end{table}
+\section{Public Housing and Diabetes}\label{public-housing-and-diabetes}
 
-\caption{\label{tab:unnamed-chunk-1}Population Demographics}
-\centering
-\fontsize{12}{14}\selectfont
-\begin{tabu} to \linewidth {>{\raggedright\arraybackslash}p{6.1cm}>{\raggedright}X>{\raggedright}X>{\raggedright}X>{\raggedright}X}
-\toprule
-Characteristics & KCHA & SHA & Combined PHA & Non-PHA\\
-\midrule
- & N=34,514 (5.9\%) & N=27,044  (4.6\%) & N=60,919  (10.4\%) & N=523,814 (89.5\%)\\
-\addlinespace[0.3em]
-\multicolumn{5}{l}{\textbf{Age}}\\
-\hspace{1em}<5 & 6.6\% & 6.1\% & 6.4\% & 5.5\%\\
-\hspace{1em}5-9 & 12.0\% & 10.2\% & 11.2\% & 7.0\%\\
-\hspace{1em}10-17 & 19.5\% & 14.9\% & 17.5\% & 9.8\%\\
-\hspace{1em}18-29 & 12.5\% & 9.9\% & 11.3\% & 8.3\%\\
-\hspace{1em}30-49 & 21.0\% & 19.3\% & 20.3\% & 11.2\%\\
-\hspace{1em}50-64 & 15.3\% & 19.9\% & 17.4\% & 9.4\%\\
-\hspace{1em}65-74 & 6.8\% & 11.5\% & 8.9\% & 28.0\%\\
-\hspace{1em}75+ & 6.1\% & 7.9\% & 7.0\% & 20.6\%\\
-\hspace{1em}Median & 39.1 years & 29.0 years & 34.0 years & 62.0 years\\
-\hspace{1em}Mean & 33.3 years & 38.7 years & 35.7 years & 50.0 years\\
-\addlinespace[0.3em]
-\multicolumn{5}{l}{\textbf{Race and Ethnicity}}\\
-\hspace{1em}American Indian or Alaska Native & 0.8\% & 1.4\% & 1.0\% & 0.8\%\\
-\hspace{1em}Asian & 5.5\% & 11.7\% & 8.3\% & 6.9\%\\
-\hspace{1em}Asian Pacific Islander & 0.1\% & 0.2\% & 0.2\% & 3.5\%\\
-\hspace{1em}Black/African American & 36.9\% & 44.9\% & 40.2\% & 7.9\%\\
-\hspace{1em}Latino & 3.8\% & 2.8\% & 3.4\% & 6.5\%\\
-\hspace{1em}Multiple & 15.5\% & 10.2\% & 13.2\% & 8.0\%\\
-\hspace{1em}Native Hawaiian or Pacific Islander & 2.3\% & 1.9\% & 2.1\% & 2.4\%\\
-\hspace{1em}Other & 0.0\% & 0.0\% & 0.0\% & 0.8\%\\
-\hspace{1em}White & 30.1\% & 22.3\% & 26.8\% & 56.1\%\\
-\hspace{1em}Unknown & 5.0\% & 4.5\% & 4.8\% & 6.9\%\\
-\addlinespace[0.3em]
-\multicolumn{5}{l}{\textbf{Gender}}\\
-\hspace{1em}Female & 58.6\% & 53.5\% & 56.3\% & 52.4\%\\
-\hspace{1em}Male & 40.6\% & 45.7\% & 42.9\% & 47.2\%\\
-\hspace{1em}Multiple & 0.8\% & 0.8\% & 0.8\% & 0.4\%\\
-\bottomrule
-\multicolumn{5}{l}{\textit{Note: }}\\
-\multicolumn{5}{l}{Percentages may not add up to 100 because of missing data}\\
-\end{tabu}
-\end{table}
 For the primary analysis, the assocation between diabetes status and
 public housing assistance, the crude model showed that the odds ratio of
 having diabetes was 1.34 fold greater for those with public housing
@@ -453,6 +463,9 @@ Non-PHA & Referent & Referent\tabularnewline
 PHA & 1.34 (CI: 1.31-1.38) & 1.94 (CI: 1.88-1.99)\tabularnewline
 \bottomrule
 \end{longtable}
+\section{Public Housing Authorities and
+Diabetes}\label{public-housing-authorities-and-diabetes}
+
 In the second analysis, the association between diabetes status and the
 specific public housing authorities, the crude model showed that the
 odds of meeting the definiton of diabetes were 1.28 times greater among
@@ -476,19 +489,69 @@ KCHA & 1.28 (CI: 1.24-1.33) & 2.16 (CI: 2.09-2.25)\tabularnewline
 SHA & 1.42 (CI: 1.38-1.48) & 1.70 (CI: 1.64-1.77)\tabularnewline
 \bottomrule
 \end{longtable}
-\chapter*{Conclusion}\label{conclusion}
-\addcontentsline{toc}{chapter}{Conclusion}
+\chapter*{Discussion}\label{discussion}
+\addcontentsline{toc}{chapter}{Discussion}
 
 If we don't want Conclusion to have a chapter number next to it, we can
 add the \texttt{\{-\}} attribute.
 
-\textbf{More info}
+In this study population, we found that duration of breastfeeding, but
+not history (yes/no) of breastfeeding, was inversely associated with new
+onset of RA. However, associations were attenuated after adjustment for
+potential confounders (age, race, education, income, smoking, oral
+contraceptive use, parity, and time between last full-term pregnancy and
+onset of RA). Associations were not modified by race.
 
-And here's some other random info: the first paragraph after a chapter
-title or section head \emph{shouldn't be} indented, because indents are
-to tell the reader that you're starting a new paragraph. Since that's
-obvious after a chapter or section title, proper typesetting doesn't add
-an indent there.
+The reduced risk of RA observed in our study, in relation to duration of
+breast feeding, is similar to some (Karlson, 2004; Pikwer, 2009; Adab,
+2014; Brun, 1995; Orellana, 2017), but not other studies (Brennan, 1994;
+Berglin, 2010), that also observed that breastfeeding was associated
+with a lower risk of RA. Karlson et al. reported an inverse association
+between duration of breastfeeding and risk of RA among female nurses in
+the Nurses' Health Study; they reported that the adjusted risk of RA for
+women who breastfed for 24 months or longer was 0.5 (95\% CI: 0.3-0.8)
+compared to females that did not breastfeed (Karlson, 2004). Similarly,
+in a Swedish study, Pikwer et al. concluded that the risk of developing
+RA may be reduced by a long history of breastfeeding; they reported that
+the ORs for the risk of RA associated with breastfeeding for 13 months
+or longer and for 1 to 12 months, compared to no history of
+breastfeeding, were 0.46 (95\% CI: 0.24-0.91) and 0.74 (95\% CI
+0.45-1.20), respectively (Pikwer, 2009). Among Chinese women, Adab et
+al. reported that longer duration of breastfeeding may be associated
+with a decreased risk of RA; for those who breastfed for 36 months or
+longer, compared with women who never breastfed, the adjusted OR was
+0.54 (95\% CI 0.29-1.01) (Adab, 2014). Brun et al., in a
+population-based study, reported an association between decreased
+mortality from RA and the total time of lactation; they reported a
+mortality rate ratio of 0.49 (95\% CI: 0.28-0.85) for those with total
+lactation of 30 months or greater compared to those who had zero months
+of lactation 9(Brun, 1995). Orellana et al. reported a potential inverse
+association between breastfeeding length and ACPA-Positive RA; women who
+breastfed for 7-12 months had an OR of 0.91 (95\% CI: 0.72-1.15) and
+women who breastfed for 13 months or longer 0.74 (95\%CI: 0.59-0.93)
+compared to those who breastfed for 6 months or less and adjusted for
+age and residential area, p-value trend = 0.0086 (Orellana, 2017).
+However, they reported that the association was not statistically
+significant when adjusted for age, residential area, smoking, and
+alcohol consumption (Orellana, 2017).
+
+\section{Limitations}\label{limitations}
+
+Despite the significance of these findings, there are serveral
+limitations to note. First, there was the huge reduction in the eligible
+population. People who met the definition of diabetes in this population
+for this study was significantly reduced from approximately 43,000 to
+13,600 after applying the inclusion criteria, a 69\% decrease. Other
+potentially significant data could be gleamed from those missing in the
+diabetes group among this population.
+
+Another limitation is that this study does not provide the prevalence of
+diabetes due to the inherent characteristic of claims data. The
+population captured in the study were only those that sought health care
+services for diabetes related outcomes. People who may have had diabetes
+but were asymptomatic or those who had been previously diagnosed with
+diabetes but did not seek care within the time frame of meeting the
+definition of diabetes were not captured in the study.
 
 \appendix
 
@@ -524,7 +587,7 @@ been organised into an R package, xxx, which is available at
 \url{https://github.com/xxx/xxx}. A hard copy of the thesis can be found
 in the University of Washington library.
 
-This version of the thesis was generated on 2020-05-23 21:11:11. The
+This version of the thesis was generated on 2020-05-23 22:05:56. The
 repository is currently at this commit:
 
 The computational environment that was used to generate this version is
