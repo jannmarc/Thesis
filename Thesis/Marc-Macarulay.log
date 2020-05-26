@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  26 MAY 2020 00:46
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  26 MAY 2020 00:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10,8 +10,8 @@ Document Class: uwthesis 2015/03/03
 \tf@not=\write3
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
-(c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk11.clo
-File: bk11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count163
 \c@chapter=\count164
@@ -502,19 +502,19 @@ ga;mapping=tex-text;"
 ga;+smcp;mapping=tex-text;"
 
 
-Package fontspec Info: Lato Regular scale = 0.809475204622051.
+Package fontspec Info: Lato Regular scale = 0.8094740779606807.
 
 
-Package fontspec Info: Lato Regular scale = 0.809475204622051.
+Package fontspec Info: Lato Regular scale = 0.8094740779606807.
 
 
-Package fontspec Info: Lato Bold scale = 0.7992176889226925.
+Package fontspec Info: Lato Bold scale = 0.799217233746694.
 
 
-Package fontspec Info: Lato Regular/I scale = 0.809475204622051.
+Package fontspec Info: Lato Regular/I scale = 0.8094740779606807.
 
 
-Package fontspec Info: Lato Bold/I scale = 0.7992176889226925.
+Package fontspec Info: Lato Bold/I scale = 0.799217233746694.
 
 
 Package fontspec Info: Font family 'LatoRegular(0)' created for font 'Lato
@@ -527,38 +527,38 @@ nt={Lato
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.809475204622051]"Lato
+(fontspec)             <->s*[0.8094740779606807]"Lato
 (fontspec)             Regular/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.7992176889226925]"Lato
+(fontspec)             <->s*[0.799217233746694]"Lato
 (fontspec)             Bold/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.809475204622051]"Lato
+(fontspec)             <->s*[0.8094740779606807]"Lato
 (fontspec)             Regular/I/OT:script=latn;language=dflt;mapping=tex-text;
 "
 (fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.7992176889226925]"Lato
+(fontspec)             <->s*[0.799217233746694]"Lato
 (fontspec)             Bold/I/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-Package fontspec Info: Source Code Pro scale = 0.8541650941479077.
+Package fontspec Info: Source Code Pro scale = 0.8541649006061119.
 
 
 Package fontspec Info: Could not resolve font "Source Code Pro/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Source Code Pro scale = 0.8541650941479077.
+Package fontspec Info: Source Code Pro scale = 0.8541649006061119.
 
 
-Package fontspec Info: Source Code Pro/B scale = 0.8541650941479077.
+Package fontspec Info: Source Code Pro/B scale = 0.8541649006061119.
 
 
-Package fontspec Info: Source Code Pro/BI scale = 0.8541650941479077.
+Package fontspec Info: Source Code Pro/BI scale = 0.8541649006061119.
 
 
 Package fontspec Info: Font family 'SourceCodePro(0)' created for font 'Source
@@ -570,7 +570,7 @@ tionSpace=WordSpace,Scale=MatchLowercase].
 (fontspec)             series/shapes:
 (fontspec)              
 (fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.8541650941479077]"Source Code
+(fontspec)             <->s*[0.8541649006061119]"Source Code
 (fontspec)             Pro/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
@@ -579,7 +579,7 @@ tionSpace=WordSpace,Scale=MatchLowercase].
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.8541650941479077]"Source Code
+(fontspec)             <->s*[0.8541649006061119]"Source Code
 (fontspec)             Pro/B/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 (fontspec)             and font adjustment code:
@@ -588,7 +588,7 @@ tionSpace=WordSpace,Scale=MatchLowercase].
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.8541650941479077]"Source Code
+(fontspec)             <->s*[0.8541649006061119]"Source Code
 (fontspec)             Pro/BI/OT:script=latn;language=dflt;mapping=tex-text;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 (fontspec)             and font adjustment code:
@@ -1031,8 +1031,8 @@ File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many
 other characters in Unicode lower plane
 (c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tipa/t3enc.def
 File: t3enc.def 2001/12/31 T3 encoding
-LaTeX Font Info:    Font shape `TU/EBGaramond(3)/m/sl' in size <10.95> not avai
-lable
+LaTeX Font Info:    Font shape `TU/EBGaramond(3)/m/sl' in size <12> not availab
+le
 (Font)              Font shape `TU/EBGaramond(3)/m/it' tried instead on input l
 ine 316.
 
@@ -1040,7 +1040,7 @@ LaTeX Font Warning: Font shape `TU/EBGaramond(3)/b/n' undefined
 (Font)              using `TU/EBGaramond(3)/m/n' instead on input line 356.
 
 LaTeX Font Info:    Font shape `TU/LatoRegular(0)/m/n' will be
-(Font)              scaled to size 8.86378pt on input line 357.
+(Font)              scaled to size 9.71375pt on input line 357.
 )
 \tipaTiiicode=\count427
 \tipasavetokens=\toks36
@@ -1175,10 +1175,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 157.
 \@quotelevel=\count443
 \@quotereset=\count444
-
-LaTeX Warning: Unused global option(s):
-    [13pt].
-
 (./Marc-Macarulay.aux
 
 LaTeX Warning: Label `tab:inher' multiply defined.
@@ -1305,17 +1301,17 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 
 
 
-] (./Marc-Macarulay.lof)
+] [2] (./Marc-Macarulay.lof)
 \tf@lof=\write8
 \openout8 = `Marc-Macarulay.lof'.
 
-[2
+[3
 
 ] (./Marc-Macarulay.lot)
 \tf@lot=\write9
 \openout9 = `Marc-Macarulay.lot'.
 
-[3
+[4
 
 ]
 <<1>>
@@ -1325,33 +1321,45 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 
 ] [2] [3]
 <<2>>
-
-Underfull \vbox (badness 6825) has occurred while \output is active []
-
 [4
 
-] [5] [6] [7]
+] [5] [6] [7] [8]
 <<3>>
-[8
+[9
 
-] [9]
+] [10] [11]
 <<4>>
-[10
+[12
 
-] [11] [12] [13
+] [13] [14] [15
 
-] [14] [15] [16]
+] [16] [17] [18]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 725.
-[17
+(Font)              scaled to size 10.25006pt on input line 725.
+
+Underfull \hbox (badness 3954) in paragraph at lines 732--735
+ []\TU/EBGaramond(3)/b/n/12 Centers for Medicare and Medicaid Services. (2020).
+ Condition Categories - Chronic Con-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 732--735
+ \TU/EBGaramond(3)/b/n/12 ditions Data Warehouse. Retrieved from [][]$[][][][][
+] [] [] [] [][][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] []
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[19
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[18]
+[20]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 847.
-[19]
+[21]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 847.
 (./Marc-Macarulay.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 847.
@@ -1373,12 +1381,12 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25839 strings out of 481249
- 468431 string characters out of 5922349
- 1190980 words of memory out of 5000000
- 42968 multiletter control sequences out of 15000+600000
- 541668 words of font info for 100 fonts, out of 8000000 for 9000
+ 25820 strings out of 481249
+ 467794 string characters out of 5922349
+ 1190950 words of memory out of 5000000
+ 42954 multiletter control sequences out of 15000+600000
+ 539861 words of font info for 88 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  61i,15n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Marc-Macarulay.pdf (25 pages).
+Output written on Marc-Macarulay.pdf (28 pages).
