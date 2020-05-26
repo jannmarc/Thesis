@@ -24,7 +24,7 @@ PHA_A%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Association between PHA Status and Diabetes")%>%
   kable_styling(font_size =  12 , full_width = T)
 
-cat(c("\\begin{table}[!htb]
+do.call(cat(c("\\begin{table}[!htb]
     \\begin{minipage}{.5\\linewidth}
       \\caption{}
       \\centering",
@@ -36,7 +36,7 @@ cat(c("\\begin{table}[!htb]
         PHA_A,
     "\\end{minipage} 
 \\end{table}"
-))  
+))  )
 ```
 
 
