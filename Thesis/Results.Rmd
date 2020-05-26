@@ -29,3 +29,11 @@ SHA     | 1.42 (CI: 1.38-1.48) | 1.70 (CI: 1.64-1.77)
 Table: (\#tab:inher) Association between the Public Housing Authorities and Diabetes
 
 </td></tr> </table>
+
+
+```{r, echo=FALSE}
+PHA<-readr::read_csv("PHA.csv", col_types = readr::cols())
+PHA_A<-readr::read_csv("PHA_A.csv", col_types = readr::cols())
+knitr::kable(
+    list(PHA,PHA_A),format = "latex",booktabs= TRUE, valign= "t")
+```
