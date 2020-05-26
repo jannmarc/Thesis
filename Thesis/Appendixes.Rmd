@@ -20,7 +20,7 @@ kable_styling(font_size =  12 , full_width = TRUE)%>%
   column_spec(1,width = "6.1cm")%>%
   footnote(general = "Percentages may not add up to 100 because of missing data")
 ```
-******
+***
 
 
 <br />
