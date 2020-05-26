@@ -35,8 +35,7 @@ Table: (\#tab:inher) Association between the Public Housing Authorities and Diab
 PHA<-readr::read_csv("PHA.csv", col_types = readr::cols())
 PHA_A<-readr::read_csv("PHA_A.csv", col_types = readr::cols())
 knitr::kable(
-    list(PHA,PHA_A),format = "latex",booktabs= TRUE)%>%
-  kable_styling(full_width= F, position  = "center")
+    list(PHA,PHA_A),format = "latex",booktabs= TRUE)
 ```
 
 
