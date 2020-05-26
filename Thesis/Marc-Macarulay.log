@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 17:59
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,27 +414,27 @@ Package fontspec Info: Font family 'EBGaramond(1)' created for font 'EB
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
 (fontspec)             <->"EB Garamond/BI/OT:script=latn;language=dflt;+smcp;"
 
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 885.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 899.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
 (Font)                  TU/EBGaramond(1)/m/n --> TU/EBGaramond(1)/bx/n on input
- line 885.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 885.
+ line 899.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 899.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/EBGaramond(1)/m/it on input line 88
-5.
+(Font)                  OT1/cmr/m/it --> TU/EBGaramond(1)/m/it on input line 89
+9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/EBGaramond(1)/m/it on input line 8
-85.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 885.
+99.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 899.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(1)/bx/n on input line 88
-5.
+(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(1)/bx/n on input line 89
+9.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(1)/bx/n on input line 88
-5.
+(Font)                  OT1/cmr/bx/n --> TU/EBGaramond(1)/bx/n on input line 89
+9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/EBGaramond(1)/m/it --> TU/EBGaramond(1)/bx/it on inp
-ut line 885.
+ut line 899.
 \symOperators:m:n=\mathgroup11
 
 Package fontspec Info: Could not resolve font "EB Garamond/B" (it probably
@@ -1352,7 +1352,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 773.
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 773.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 773.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
-(rerunfilecheck)             Checksum: 12FE0A21AC88668E772823F5BB23D3B7;1169.
+(rerunfilecheck)             Checksum: 857BD5991C136057D38785C8575F0F20;1227.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 64.17pt have occurred.
@@ -1368,10 +1368,10 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25836 strings out of 481249
- 468450 string characters out of 5922349
- 1190880 words of memory out of 5000000
- 42965 multiletter control sequences out of 15000+600000
+ 25838 strings out of 481249
+ 468469 string characters out of 5922349
+ 1190956 words of memory out of 5000000
+ 42967 multiletter control sequences out of 15000+600000
  541668 words of font info for 100 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
  61i,15n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
