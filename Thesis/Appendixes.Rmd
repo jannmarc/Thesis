@@ -6,7 +6,7 @@
 If you feel it necessary to include an appendix, it goes here.
 -->
 
-#Appendix
+#Appendix {-}
 
 ```{r, echo=FALSE}
 options(knitr.kable.NA = '')
