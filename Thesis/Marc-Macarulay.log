@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 23:15
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1330,10 +1330,7 @@ Underfull \vbox (badness 6825) has occurred while \output is active []
 <<3>>
 [8
 
-]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[9]
+] [9]
 <<4>>
 [10
 
@@ -1341,7 +1338,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ] [14] [15] [16]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 721.
+(Font)              scaled to size 9.35316pt on input line 720.
 [17
 
 
@@ -1349,12 +1346,12 @@ LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [18]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 843.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 842.
 [19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 843.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 842.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 843.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 843.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 842.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 842.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
 (rerunfilecheck)             Checksum: B68726910AEF3BDDB003D19CA5800490;1228.
 
@@ -1373,7 +1370,7 @@ Package logreq Info: Writing requests to 'Marc-Macarulay.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  25838 strings out of 481249
- 468469 string characters out of 5922349
+ 468460 string characters out of 5922349
  1190971 words of memory out of 5000000
  42967 multiletter control sequences out of 15000+600000
  541668 words of font info for 100 fonts, out of 8000000 for 9000

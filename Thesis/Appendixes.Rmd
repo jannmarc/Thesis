@@ -25,21 +25,21 @@ kable_styling(font_size =  12 , full_width = TRUE)%>%
 
 
 
-```{r, echo=FALSE}
+```{r table2, echo=FALSE}
 table2<-readr::read_csv("diabetes_crude_test_Output.csv", col_types = readr::cols())
 table2%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Crude PHA Regression Model")%>%
   kable_styling(font_size =  12 , full_width = T)
 ```
 
-```{r, echo=FALSE}
+```{r table3, echo=FALSE}
 table3<-readr::read_csv("Adjusted_Diabetes_PHA_Output.csv", col_types = readr::cols())
 table3%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Adjusted PHA Regression Model")%>%
   kable_styling(font_size =  12 , full_width = T)
 ```
 
-```{r, echo=FALSE}
+```{r table4, echo=FALSE}
 table4<-readr::read_csv("pha_agency_output.csv", col_types = readr::cols())
 table4%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Crude PHA Agency Regression Model")%>%
@@ -47,7 +47,7 @@ knitr::kable(format = "latex", booktabs= T, caption= "Crude PHA Agency Regressio
 ```
 
 
-```{r, echo=FALSE}
+```{r table5, echo=FALSE}
 table5<-readr::read_csv("pha_agency_adj_output.csv", col_types = readr::cols())
 table5%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Adjusted PHA Agency Regression Model")%>%
