@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 21:19
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1334,29 +1334,30 @@ Underfull \vbox (badness 6825) has occurred while \output is active []
 <<4>>
 [10
 
-] [11] [12
+] [11] [12] [13
 
-] [13] [14] [15]
+] [14] [15] [16]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 691.
-[16
+(Font)              scaled to size 9.35316pt on input line 718.
+[17
 
 
 ]
-Overfull \hbox (87.61081pt too wide) in paragraph at lines 741--744
+Overfull \hbox (87.61081pt too wide) in paragraph at lines 768--771
  \TU/EBGaramond(3)/b/n/10.95 Development (HUD). Retrieved from [][]https://www.
 hud.gov/program{\_}offices/public{\_}indian{\_}housing/systems/pic/50058[][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 792.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[17] [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 792.
+[18]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 826.
+[19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 826.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 792.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 792.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 826.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 826.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
 (rerunfilecheck)             Checksum: B68726910AEF3BDDB003D19CA5800490;1228.
 
@@ -1382,4 +1383,4 @@ Here is how much of TeX's memory you used:
  15 hyphenation exceptions out of 8191
  61i,15n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Marc-Macarulay.pdf (24 pages).
+Output written on Marc-Macarulay.pdf (25 pages).
