@@ -12,6 +12,35 @@ For the primary analysis, the assocation between diabetes status and public hous
 ## Public Housing Authorities and Diabetes
 In the second analysis, the association between diabetes status and the specific public housing authorities, the crude model showed that the odds of meeting the definiton of diabetes were 1.28 times greater among KCHA residents and 1.42 times greater among SHA residents (See Table \@ref(tab:table4)). The adjusted model revealed that among KCHA residents the odds of meeting the definition of diabetes were 2.16 times higher and 1.70 for SHA residents compared to non-PHA residents (See Table \@ref(tab:table5)).
 
+
+```{r, echo=FALSE}
+PHA<-readr::read_csv("PHA.csv", col_types = readr::cols())
+PHA%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Association between PHA Status and Diabetes")%>%
+  kable_styling(font_size =  12 , full_width = T)
+
+PHA_A<-readr::read_csv("PHA_A.csv", col_types = readr::cols())
+PHA_A%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Association between PHA Status and Diabetes")%>%
+  kable_styling(font_size =  12 , full_width = T)
+
+cat(c("\\begin{table}[!htb]
+    \\begin{minipage}{.5\\linewidth}
+      \\caption{}
+      \\centering",
+        PHA,
+    "\\end{minipage}%
+    \\begin{minipage}{.5\\linewidth}
+      \\centering
+        \\caption{}",
+        PHA_A,
+    "\\end{minipage} 
+\\end{table}"
+))  
+```
+
+
+
 Housing Status | Model 1          | Model 2
 ---------------|------------------|-----------------
 Non-PHA        | Referent         | Referent
