@@ -770,20 +770,6 @@
     }
    }
 %
-%   List of figures
-%
-
-\def\textofLoF#1{\gdef\@textofLoF{#1}}  \textofLoF{List of Figures}
-\def\listoffigures{\chapter*{\@textofLoF\@mkboth{}{}}
-   \thispagestyle{plain}
-   \addcontentsline{toc}{chapter}{\protect\@textofLoF}
-   \hbox to\textwidth{Figure Number \hfill Page}
-   {\let\footnotemark\relax  % in case one is in the title
-    \uwsinglespace
-   \@starttoc{lof}
-    }
-   }
-%
 %   List of tables
 %
 \def\textofLoT#1{\gdef\@textofLoT{#1}}  \textofLoT{List of Tables}
