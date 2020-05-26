@@ -122,8 +122,8 @@
 
 \def\@f@ntsize{13pt}
 \DeclareOption{10pt}{\def\@f@ntsize{10pt}}
-\DeclareOption{11pt}{\def\@f@ntsize{11pt}}
-\DeclareOption{11pt}{\def\@f@ntsize{11pt}}
+\DeclareOption{13pt}{\def\@f@ntsize{13pt}}
+\DeclareOption{13pt}{\def\@f@ntsize{13pt}}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 
 \PassOptionsToClass{\@f@ntsize}{book}
