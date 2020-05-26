@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 16:32
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1337,22 +1337,26 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 
 ] [15] [16] [17]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 684.
+(Font)              scaled to size 10.25006pt on input line 681.
 
-Overfull \hbox (75.60281pt too wide) in paragraph at lines 687--690
+Overfull \hbox (75.60281pt too wide) in paragraph at lines 699--702
  \TU/EBGaramond(3)/b/n/12 (HUD). Retrieved from [][]https://www.hud.gov/program
 {\_}offices/public{\_}indian{\_}housing/systems/pic/50058[][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 706.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 [18
 
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 706.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 741.
+[19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 741.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 706.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 706.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 741.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 741.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
 (rerunfilecheck)             Checksum: 857BD5991C136057D38785C8575F0F20;1227.
 
@@ -1378,4 +1382,4 @@ Here is how much of TeX's memory you used:
  15 hyphenation exceptions out of 8191
  61i,15n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Marc-Macarulay.pdf (25 pages).
+Output written on Marc-Macarulay.pdf (26 pages).
