@@ -37,3 +37,20 @@ PHA_A<-readr::read_csv("PHA_A.csv", col_types = readr::cols())
 knitr::kable(
     list(PHA,PHA_A),format = "latex",booktabs= TRUE, valign= "t")
 ```
+
+
+```{r, echo=FALSE}
+PHA<-readr::read_csv("PHA.csv", col_types = readr::cols())
+PHA%>%
+knitr::kable("latex",caption ="PHA")%>%
+  kable_styling(full_width = F,position = "float_left")
+```
+
+
+```{r, echo=FALSE}
+PHA_A<-readr::read_csv("PHA_A.csv", col_types = readr::cols())
+PHA_A
+knitr::kable("latex",caption ="PHA_A")%>%
+  kable_styling(full_width = F,position = "float_right")
+```
+
