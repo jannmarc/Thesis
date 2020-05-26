@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 20:17
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  25 MAY 2020 20:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1340,20 +1340,25 @@ Underfull \vbox (badness 6825) has occurred while \output is active []
 
 ] [13] [14] [15]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 9.35316pt on input line 684.
+(Font)              scaled to size 9.35316pt on input line 685.
 [16
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 785.
+Overfull \hbox (87.61081pt too wide) in paragraph at lines 735--738
+ \TU/EBGaramond(3)/b/n/10.95 Development (HUD). Retrieved from [][]https://www.
+hud.gov/program{\_}offices/public{\_}indian{\_}housing/systems/pic/50058[][] 
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 786.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [17] [18]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 785.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 786.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 785.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 785.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 786.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 786.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
 (rerunfilecheck)             Checksum: 857BD5991C136057D38785C8575F0F20;1227.
 
