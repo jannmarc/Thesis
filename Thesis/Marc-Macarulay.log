@@ -1,0 +1,53 @@
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  26 MAY 2020 14:57
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Marc-Macarulay.tex
+(./Marc-Macarulay.tex
+LaTeX2e <2020-02-02> patch level 5
+L3 programming layer <2020-05-15> (./uwthesis.cls
+Document Class: uwthesis 2015/03/03
+\tf@not=\write3
+(c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2019/12/20 v1.4l Standard LaTeX document class
+(c:/Users/Marc/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@chapter=\count164
+\c@section=\count165
+\c@subsection=\count166
+\c@subsubsection=\count167
+\c@paragraph=\count168
+\c@subparagraph=\count169
+\c@figure=\count170
+\c@table=\count171
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+Formatting for ProQuest
+\botmargin=\dimen135
+\@@wholepage=\box45
+\@Chair=\count172
+\@Sign=\count173
+\abs@savebox=\box46
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.789 ...tofLoF{#1}}  \textofLoF{List of Figures}*
+                                                   
+Here is how much of TeX's memory you used:
+ 346 strings out of 481249
+ 4067 string characters out of 5922349
+ 239796 words of memory out of 5000000
+ 17972 multiletter control sequences out of 15000+600000
+ 532346 words of font info for 25 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 30i,0n,25p,184b,40s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+No pages of output.
