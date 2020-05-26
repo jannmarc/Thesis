@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  26 MAY 2020 00:50
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  26 MAY 2020 01:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1335,15 +1335,15 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 
 ] [16] [17] [18]
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 10.25006pt on input line 725.
+(Font)              scaled to size 10.25006pt on input line 730.
 
-Underfull \hbox (badness 3954) in paragraph at lines 732--735
+Underfull \hbox (badness 3954) in paragraph at lines 737--740
  []\TU/EBGaramond(3)/b/n/12 Centers for Medicare and Medicaid Services. (2020).
  Condition Categories - Chronic Con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 732--735
+Underfull \hbox (badness 10000) in paragraph at lines 737--740
  \TU/EBGaramond(3)/b/n/12 ditions Data Warehouse. Retrieved from [][]$[][][][][
 ] [] [] [] [][][][] [] [][][][][][][] [] [][][] [] [][][] [] [][][][][] []
  []
@@ -1358,12 +1358,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [20]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 847.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 852.
 [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 847.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 852.
 (./Marc-Macarulay.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 847.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 847.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 852.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 852.
 Package rerunfilecheck Info: File `Marc-Macarulay.out' has not changed.
 (rerunfilecheck)             Checksum: B68726910AEF3BDDB003D19CA5800490;1228.
 
