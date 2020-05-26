@@ -117,10 +117,10 @@
 
 
 %
-% ----  Thesis is a modified (default 11pt) book style  -----------------
+% ----  Thesis is a modified (default 13pt) book style  -----------------
 %
 
-\def\@f@ntsize{11pt}
+\def\@f@ntsize{13pt}
 \DeclareOption{10pt}{\def\@f@ntsize{10pt}}
 \DeclareOption{11pt}{\def\@f@ntsize{11pt}}
 \DeclareOption{11pt}{\def\@f@ntsize{11pt}}
