@@ -16,7 +16,7 @@ knitr::kable(format = "latex", booktabs= T, caption= "PHA")%>%
 PHA_A<-readr::read_csv("PHA_A.csv", col_types = readr::cols())
 PHA_A%>%
 knitr::kable(format = "latex", booktabs= T, caption= "PHA_A")%>%
-  kable_styling(font_size =  12 , full_width = F, position= "left")
+  kable_styling(font_size =  12 , full_width = F, position= "right")
 ```
 
 
