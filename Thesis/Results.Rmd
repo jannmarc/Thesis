@@ -6,19 +6,7 @@ Among the study participants, the proportion of people that were in the PHA cate
 
 Additionally, the population age distribution were different between PHA status, the non-PHA category had an older population with a median  of age of 62 and a mean age of 50 compared to the PHA population with a median and mean age of 34 and 35.7 respectively. The PHA group were more racial and ethnically diverse than the non-PHA group. However, the gender distribution between the two groups were similar.
 
-```{r table1, echo=FALSE}
-options(knitr.kable.NA = '')
-table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
-table1%>%
-knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
-kable_styling(font_size =  12 , full_width = TRUE)%>%
-  pack_rows("Age",2,11, bold= TRUE )%>%
-  pack_rows("Race and Ethnicity",12,21, bold= TRUE)%>%
-  pack_rows("Gender",22,24, bold= TRUE)%>%
-  column_spec(1,width = "6.1cm")%>%
-  footnote(general = "Percentages may not add up to 100 because of missing data")
 
-```
 ## Public Housing and Diabetes
 For the primary analysis, the association between diabetes status and public housing assistance, the crude model showed that the odds ratio of having diabetes was 1.34 fold greater for those receiving public housing assistance (See Table \@ref(tab:table2)). This effect increased in the adjusted model, PHA residents were 94% more likely to meet the definition of diabetes compared to those that were non-PHA residents (See Table \@ref(tab:table3)).
 
