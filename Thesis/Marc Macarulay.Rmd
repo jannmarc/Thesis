@@ -1,0 +1,293 @@
+---
+# UW thesis fields
+title: "Diabetes and Public Housing"
+author: "Marc Macarulay"
+year: "2020"
+program: "Health Services"
+chair:
+chairtitle:
+Committee :
+
+abstract: |
+  Public housing residents have worse health than the general population including chronic diseases such as diabetes. Estimating diabetes status for public housing residents are essential for public health agencies to implement efficient health promotion programs within populations that have a greater need. This cross-sectional design study was conducted using data collected from Data Across Sectors for Housing and Health partnership in King County, WA. Total population included were Medicaid and Medicare beneficiaries compiled from Washington Health Care Authority (n= 585,372). Associations between public housing and diabetes status were estimated using odds ratios and corresponding 95% confidence intervals from crude and adjusted models. Further associations were determined between individual public housing authorities and diabetes status using the same crude and adjusted models. Among study participants 10.4% received some form public housing assistance in 2017. In total, 9.9% were considered to have diabetes and 90.1% were not considered to have diabetes. The adjusted model revealed that public housing residents were 1.94 times (95% CI: 1.88-1.99) more likely to meet the diabetes definition compared to those not receiving housing assitance. These findings suggest that public housing residents are more likely to be diabetic. Further studies should explore the relationship between public housing and diabetes over a longer period to discern the direction of the association over time. Findings from this study can be used to inform future interventions for diabetes treatment by both public health and housing agencies.
+acknowledgments: |
+  "My acknowledgments"
+# End of UW thesis fields
+knit: "bookdown::render_book"
+site: bookdown::bookdown_site
+output:
+  huskydown::thesis_pdf:
+    latex_engine: xelatex
+#  huskydown::thesis_gitbook: default
+#  huskydown::thesis_word: default
+#  huskydown::thesis_epub: default
+bibliography: bib/M.bib
+# Download your specific bibliography database file and refer to it in the line above.
+csl: csl/apa.csl
+# Download your specific csl file and refer to it in the line above.
+lot: true
+lof: true
+# space_between_paragraphs: true
+# Delete the # at the beginning of the previous line if you'd like
+# to have a blank new line between each paragraph
+#header-includes:
+#- \usepackage{tikz}
+---
+
+<!--
+Above is the YAML (YAML Ain't Markup Language) header that includes a lot of metadata used to produce the document.  Be careful with spacing in this header!
+
+If you'd like to include a comment that won't be produced in your resulting file enclose it in a block like this.
+-->
+
+<!--
+If you receive a duplicate label error after knitting, make sure to delete the index.Rmd file and then knit again.
+-->
+
+```{r include_packages, include = FALSE}
+# This chunk ensures that the huskydown package is
+# installed and loaded. This huskydown package includes
+# the template files for the thesis.
+if(!require(devtools))
+  install.packages("devtools", repos = "http://cran.rstudio.com")
+if(!require(huskydown))
+  devtools::install_github("benmarwick/huskydown")
+library(huskydown)
+```
+
+```{r load-packages, include=FALSE}
+library(dplyr)
+library(magrittr)
+library(knitr)
+library(kableExtra)
+library(xtable)
+```
+<!-- The {.unnumbered} option here means that the introduction will be "Chapter 0." You can also use {-} for no numbers on chapters. -->
+
+<!--chapter:end:ThesisOutput.Rmd-->
+
+<!--
+The {#rmd-basics} text after the chapter declaration will allow us to link throughout the document back to the beginning of Chapter 1.  These labels will automatically be generated (if not specified) by changing the spaces to hyphens and capital letters to lowercase.  Look for the reference to this label at the beginning of Chapter 2.
+-->
+# Background and Significance {#rmd-basics}
+## Public Housing
+Housing is widely acknowledged as an important social determinant of health [@Thomson2013]. Health outcomes driven by housing are mediated by housing quality, safety, stability, and affordability [@Taylor2018]. There are well established links between housing quality and morbidity ranging from mental disorders, injuries, infectious diseases, and chronic diseases [@Krieger2002]. There is a growing body of evidence associating substandard housing with poor health outcomes, but the relationship between public housing and health is minimally explored. Public housing provides decent and safe subsidized rental housing for eligible populations including low-income families, the elderly, and persons with disabilities [@HUD2020]. However, relevant studies have shown that public housing residents have worse health outcomes than other city residents [@Digenis-Bury2008 ; @Manjarrez2007]. Even less understood is how public housing assistance impacts chronic health conditions like diabetes.
+
+## Diabetes
+Diabetes is a chronic disease that is characterized by an inability of the body to maintain a healthy blood glucose level, this can cause a variety of symptoms that affect multiple systems in the body and can lead to potentially life-threatening complications. The key regulator hormone of glucose is insulin and it is produced in the pancreas. The absence or malfunction of insulin leads to elevated blood glucose levels called hyperglycemia. When insulin hormone is missing or ineffective the disease is called Diabetes Mellitus and this condition has multiple types.
+
+### Diabetes Variants
+The most common diabetes variants include type I diabetes mellitus, type II diabetes mellitus, and gestational diabetes. Type I diabetes is usually caused by genetic factors triggering an autoimmune reaction that results in the destruction of insulin producing cells in the pancreas. Also known as Juvenile Diabetes, the type I classification is typically diagnosed relatively early in life during childhood or early adulthood. Whereas Type II diabetes develops when the body can still produce insulin however the amount is insufficient or when the body becomes resistant to the effects of insulin. Type II diabetes is largely attributed to lifestyle factors. Gestational diabetes is the least common type and occurs during pregnancy. The prevalence of type II diabetes are much higher than type I. In the US, type II and type I diabetes account for approximately 91% and 6% of all diagnosed diabetes cases [@Bullard2018].
+
+Diabetes is a serious chronic condition without a medical cure. The treatment for diabetes involves disease prevention and management. Medical treatment of diabetes primarily consists of exogenous insulin replacement or use of medications that stimulate the pancreas to produce endogenous insulin. Without adequate blood control, diabetes can lead to increased risk of other conditions including vision loss, heart disease, stroke, kidney failure, nerve damage, amputation, and even premature death.
+
+##Problem Definition
+Disease management for type II diabetics focuses on lifestyle modification such as diet control and increased physical activity. The goal is to promote weight loss and reduce excess fat that subsequently reduces insulin resistance and enhances disease control. However, other determinants of health have been recognized to impact the effectiveness of diabetes management, namely healthcare access, cultural and social support, economic stability and built environments [@Clark2014]. Housing instability and food insecurity in particular have been shown to reduce diabetes management self-efficacy in low income adults [@Vijayaraghavan2011].
+
+Again, while there are numerous published literature on the association between substandard housing and health outcomes, few studies specifically examine the relationship between public housing and diabetes. For this reason, the current study aimed to explore this public health issue within a local context in King County, WA.
+
+In the effort to decrease the gap of knowledge between the junction of public housing and health, Public Health Seattle and King County (PHSKC) formed a unique partnership with King County Housing Authority (KCHA), Seattle Housing Authority (SHA) enabling data to be shared across sectors with the intention of informing and measuring future interventions that would improve the health of the county residents. This research aims to use the provided data to contribute to the literature on the association between public housing and diabetes among Medicaid and Medicare patients. The findings of the study could help identify where resources for diabetes prevention and management might be more effective.
+
+<!--chapter:end:Background.Rmd-->
+
+# Methods {}
+## Study Setting and Study Design
+The current study investigates whether public housing is associated with risk of diabetes status among King County, WA residents who were enrolled in Medicare and Medicaid. This study uses a descriptive cross-sectional design. The cross-sectional design is appropriate because it allows for an estimate of a dichotomous disease outcome at a particular point in time [@Greenland1988].
+
+The analysis of this study was conducted on a dataset compiled from the King County _Data Across Sectors for Housing and Health (DASHH)_ partnership. The findings from the original initial study have previously been reported [@PHSKC2018].
+
+## Data Sources
+In an effort to reduce fragmented data siloes across different sectors, the DASHH partnership was formed in 2016 between Public Health - Seattle and King County , and two public housing authories, King County Housing Authority and Seattle Housing Authority. The primary objectives for DASHH were to join health and housing administrative data together to inform and measure future interventions, relating to policy, outreach, and program evaluation that would improve the health of King County residents, as well as to disseminate actionable data with key health and housing stakeholders.
+
+The housing data provided by both KCHA and SHA originated from the US Department of Housing and Urban Development (HUD). This data source contained elements that included demographic information and period of enrollment for families and individuals. Claims and enrollment for Medicaid and Medicare data were from Washington Health Care Authority (HCA) which was provided to PHSKC. Enrollment data contained information on who was receiving Medicaid and Medicare benefits. Claims data provided elements such as diagnosis codes that were used to identify acute events and chronic conditions. All these data sources were linked together by a unique identifier ID.
+
+## Study Population
+The study population were participants that were enrolled in either Medicare or Medicaid programs. Further eligibility for study participation included King County, Washington residency and at least 11 months of Medicare or Medicaid coverage in 2017. The minimum coverage restriction provides a more accurate representation of participants with full Medicaid and Medicare insurance benefits. The overall number of participants derived from the DASHH dataset totaled 585,372.
+<br />
+<br />
+### Exposure Variable
+The exposure variable for this study was public housing assistance status. This was extracted from the HUD-50058 form which was provided by the PHAs. The HUD-50058 form provides information on families that participate in public housing or Section 8 rental subsidy programs [@HUD2020]. Housing assistance is separated into 3 main types:
+
+* Housing Choice Vouchers - vouchers provided to recipients to rent units on the private housing market
+* Public housing properties and units - subsidized housing managed by PHAs
+* Project-based vouchers - subsidized housing units not managed by PHAs
+
+Responses on the HUD-50058 form were combined into a composite public housing binary variable. Study participants that were not enrolled in any of the listed housing assistance programs were coded as 0 for PHA status. Whereas those responses that contained any of the 3 types of housing  assistance was given a 1 for PHA status.
+
+### Outcome Variable
+The outcome variable for this study was diabetes status. This was defined using the Centers for Medicare and Medicaid Services (CMS) Chronic Conditions Warehouse (CCW) algorithm [@CMS2020]. According to the CCW, a participant meets the criteria if they have at least 1 inpatient, skilled nursing facility, home health agency visit or 2 hospital outpatient or carrier claims with diabetes diagnoses codes as outlined by the chronic conditions reference list within the last 2 years[@CMS2020]. This definition does not specify diabetes variant but instead accounts for any type diabetes diagnoses. The diabetes status outcome variable was dichotomous, given a 0 or 1. Those that did not meet the CCW algorithm were coded a 0 and those that met the criteria were coded as 1 for diabetes status.
+
+### Potential Confounders
+Potential confounders were identified based on literature review. This study considers age, race and ethnicity and gender as potential confounding variables. Each of these variables were selected due to the increased baseline risk for participants to be either in public housing or have diabetes. It is known that diabetes is an age-related disease, with a higher risk for older populations [@Selvin2013]. Age was presented as a discrete variable for the participants age in 2017. Similarly, according to CDC data, racial minority groups may be differentially at risk for both type 1 and type 2 diabetes compared to their white counterparts [@Divers2020 ; @CDC2020]. Race and ethnicity variable was defined categorically and included: American Indians/Alaska Natives, Asian, Asian Pacific Islander, Black/African American, Latino, Multiple, Native Hawaiian and Pacific Islander, Other, Unknown, and White. Gender was selected because both psychosocial and biological factors are responsible for sex and gender diabetes risk differences [@Kautzky-Willer2016]. Gender was grouped categorically and included: Female, Male, and Multiple.
+<br />
+
+## Analyses
+As is common in epidemiological and health services research, demographic characteristics were presented to describe the population distribution [@Hayes-Larson2019]. Descriptive analyses were first used to list the percentages for each of the demographic categorical variables. The demographics table is arranged by PHA status, this included: KCHA, SHA, combined PHA and non-PHA. Although the discrete variable for age was used in the statistical analyses, age was reported categorically in the descriptive analyses for a simpler distribution description. Mean and median age were also shown for each category.
+
+For the statistical analyses, logistic regression models were fitted to assess the risk of diabetes status in relation to public housing assistance status. This analysis is well-suited for this study because logistic regression analyses allows for measuring the association of an effect towards a binomial response variable by combining multiple variables to avoid confounding [@Sperandei2014]. Given the binary outcome variable of diabetes status, logistic regression is an appropriate choice.
+
+There were two main statistical analyses performed in this study, the relationship between public housing and diabetes as well as the relationship between the specific public housing authorities and diabetes. The distinction between these analyses are that first provides the likelihood of meeting the diabetes definiton if a person was receiving public housing assistance and the second provides a more specific estimate for each of the housing authority. Two models were used to determine the odds ratios (OR) and corresponding 95% confidence intervals for the association between public housing assistance and diabetes status. The models used were the unadjusted model, without any other variables included in the analysis and the adjusted model including age, race and ethnicity and gender variables. In addition, these models were also fit to determine the odds ratio of diabetes status in relation to the seperate public housing authoritys. Similarly, the unadjusted model and the adjusted model that included age, race and ethnicity and gender variables were used to determine the association for the second analysis. Findings were statistically significant if the estimates did not cross the confidence intervals and p-values were below <0.05 threshold. Analyses were conducted using R version 3.6.0.
+
+<!--chapter:end:Methods.Rmd-->
+
+
+# Results {#ref-labels}
+## Descriptive Statistics
+Among the study participants, the proportion of people that were in the PHA category was 10.4% and of that, 5.9% were with KCHA and 4.6% with SHA (See Table \@ref(tab:table1)). The majority of the study participants, 89.5% did not recieve any type of public housing assistance in 2017. Descriptive analysis revealed that PHA population had a greater proportion of people meeting the definition of diabetes at 12.7% compared to the non-PHA group with 9.6%. Overall, 9.9% were considered to meet the definition of diabetes and the rest, 90.1% were not considered to have diabetes.
+
+
+Additionally, the population age distribution were different between PHA status, the non-PHA category had an older population with a median  of age of 62 and a mean age of 50 compared to the PHA population with a median and mean age of 34 and 35.7 respectively. The PHA group were more racial and ethnically diverse than the non-PHA group. However, the gender distribution between the two groups were similar.
+
+
+## Public Housing and Diabetes
+For the primary analysis, the association between diabetes status and public housing assistance, the crude model showed that the odds ratio of having diabetes was 1.34 fold greater for those receiving public housing assistance (See Table \@ref(tab:table2)). This effect increased in the adjusted model, PHA residents were 94% more likely to meet the definition of diabetes compared to those that were non-PHA residents (See Table \@ref(tab:table3)).
+
+Housing Status | Unadjusted        | Adjusted*                
+---------------|------------------|-----------------               
+Non-PHA        | Referent         | Referent                    
+PHA            | 1.34 (CI: 1.31-1.38) | 1.94 (CI: 1.88-1.99)    
+Table: (\#tab:PHA) Association between PHA Status and Diabetes
+\begin{tablenotes}
+     \small
+     \item * Adjusted for age, race and ethnicity and gender status
+   \end{tablenotes}
+Status  | Unadjusted             | Adjusted*
+--------|----------------------|---------------------
+Non-PHA | Referent             | Referent                                                            
+KCHA    | 1.28 (CI: 1.24-1.33) | 2.16 (CI: 2.09-2.25)
+SHA     | 1.42 (CI: 1.38-1.48) | 1.70 (CI: 1.64-1.77)
+Table: (\#tab:PHAA) Association between the Public Housing Authorities and Diabetes  
+\begin{tablenotes}
+     \small
+     \item * Adjusted for age, race and ethnicity and gender status
+   \end{tablenotes}
+
+## Public Housing Authorities and Diabetes
+In the second analysis, measuring the association between diabetes status and the specific public housing authorities, the crude model showed that the odds of meeting the definition of diabetes were 1.28 times greater among KCHA residents and 1.42 times greater among SHA residents (See Table \@ref(tab:table4)). The adjusted model revealed that among KCHA residents, the odds of meeting the definition of diabetes were 2.16 times higher and 1.70 for SHA residents compared to non-PHA residents (See Table \@ref(tab:table5)).
+
+<!--chapter:end:Results.Rmd-->
+
+# Discussion {}
+##Discussion
+Findings from this study indicate that public housing assistance was positively associated with diabetes status. After adjusting for potential confounders (age, gender, race and ethnicity) the effect of public housing on diabetes status increased even greater. Furthermore, findings also suggest that when stratified into PHA agency in the crude model, KCHA residents where were less likely to meet the definition of diabetes than SHA residents but still more likely than the non-PHA group. After adjust for potential confounders, the effect of association between PHA agency on diabetes saw a greater increase for KCHA residents than SHA residents.  
+
+The increased risk of diabetes observed in this study in relation to public housing had similar results to another study that compared public housing residents in Boston, MA to other city residents for health outcomes including diabetes that revealed worse health outcomes for public housing residents [@Digenis-Bury2008]. A potential explanation of these findings may be attributed to the fact that public housing residents were more likely to be racial and ethnic minorities and the prevalence of diabetes is often greater for racial and ethnic populations [@Chow2012]. Another possible explanation is that areas and neighborhoods with a high level of poverty, such as where public housing properties may be located tend to also have a higher prevalence of obesity and diabetes [@Ludwig2011].
+
+These findings suggest that public housing residents have a greater need for diabetes treatment and could be an avenue in which resources on diabetes prevention and management may be more effective. A health promotion intervention that utilized homecare nurses to implement a diabetes prevention program in public housing communities proved to be successful and can be a viable option in improving health outcomes [@Whittemore2014]. Considering the population demographics in the PHA group, another successful strategy may be to implement a culturally competent diabetes care intervention program [@Zeh2012].
+
+In contrast, the preliminary findings in this study that suggests that PHA recipients are more likely to be diabetic are inferential and therefore cannot be interpreted as a causal relationship. As previously mentioned, substandard and unstable housing has been linked with worse diabetes health outcomes, however stable housing provided by PHA has been associated with the ability for participants to afford diabetes-related financial expenses [@Keene2018]. Additionally, when housing needs are met participants are able to prioritize diabetes self-management, avoiding potential complications [@Keene2018]. Those participants with diabetes prior to receiving public housing assistance could potentially see a reduction in diabetes related complications over time.
+<br />
+<br />
+<br />
+Strengths of this study include the population-based study design that allows for estimation of disease impact on a broad scale and the well-defined study population. The data used in this study were also from reliable sources with careful and normally complete documentation, subsequently reducing the impact of information bias.
+
+## Limitations
+There are several limitations to note. First, there may have been unmeasured potential confounders. Given the data provided, other elements that are recognized to be potential confounders for diabetes may have been useful to include in this study like socioeconomic status and other health characteristics like BMI.    
+
+Another limitation is that this study does not provide the prevalence of diabetes due to the inherent characteristic of claims data. The population captured in the study were only those that sought healthcare services for diabetes related outcomes. People who may have been diabetic during this period but were asymptomatic or those who had been previously diagnosed with diabetes but did not seek care within the time frame provided by the CCW algorithm definition of diabetes were not captured in the study. Consequently, the eligible population in this study cannot provide a prevalence estimate by themselves.
+
+Despite the limitations, this study contributes to our understanding of poverty and diabetes self-management the findings are generalizable to low-income, racially, and ethnically diverse populations with diabetes who obtain health care in safety-net health settings. Future studies should continue investigating the relationship between public housing and diabetes and in particular further studies should explore the association over a longer time period.
+
+<!--chapter:end:Discussion.Rmd-->
+
+`r if(knitr:::is_latex_output()) '\\appendix'`
+
+`r if(!knitr:::is_latex_output()) '# (APPENDIX) Appendix {-}'`
+
+<!--
+If you feel it necessary to include an appendix, it goes here.
+-->
+
+#Appendix {-}
+
+```{r table1, echo=FALSE}
+options(knitr.kable.NA = '')
+table1<-readr::read_csv("table 1.csv", col_types = readr::cols())
+table1%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Population Demographics")%>%
+kable_styling(font_size =  12 , full_width = TRUE)%>%
+  pack_rows("Age",2,11, bold= TRUE )%>%
+  pack_rows("Race and Ethnicity",12,21, bold= TRUE)%>%
+  pack_rows("Gender",22,24, bold= TRUE)%>%
+  column_spec(1,width = "6.1cm")%>%
+  footnote(general = "Percentages may not add up to 100 because of missing data")
+
+```
+
+
+<br />
+<br />
+```{r table2, echo=FALSE}
+table2<-readr::read_csv("diabetes_crude_test_Output.csv", col_types = readr::cols())
+table2%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Crude PHA Regression Model")%>%
+  kable_styling(font_size =  12 , full_width = T)
+```
+
+```{r table3, echo=FALSE}
+table3<-readr::read_csv("Adjusted_Diabetes_PHA_Output.csv", col_types = readr::cols())
+table3%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Adjusted PHA Regression Model")%>%
+  kable_styling(font_size =  12 , full_width = T)
+```
+
+```{r table4, echo=FALSE}
+table4<-readr::read_csv("pha_agency_output.csv", col_types = readr::cols())
+table4%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Crude PHA Agency Regression Model")%>%
+  kable_styling(font_size =  12 , full_width = T)
+```
+
+
+```{r table5, echo=FALSE}
+table5<-readr::read_csv("pha_agency_adj_output.csv", col_types = readr::cols())
+table5%>%
+knitr::kable(format = "latex", booktabs= T, caption= "Adjusted PHA Agency Regression Model")%>%
+  kable_styling(font_size =  12 , full_width = T)
+```
+
+<!--chapter:end:Appendixes.Rmd-->
+
+<!--
+The bib chunk below must go last in this document according to how R Markdown renders.  More info is at http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html
+-->
+
+\backmatter
+
+<!-- 
+If you'd like to change the name of the bibliography to something else,
+delete "References" and replace it.
+-->
+
+# References {-}
+<!--
+This manually sets the header for this unnumbered chapter.
+-->
+\markboth{References}{References}
+<!--
+To remove the indentation of the first entry.
+-->
+\noindent
+
+<!--
+To create a hanging indent and spacing between entries.  These three lines may need to be removed for styles that don't require the hanging indent.
+-->
+
+\setlength{\parindent}{-0.20in}
+\setlength{\leftskip}{0.20in}
+\setlength{\parskip}{8pt}
+
+
+<!--
+This is just for testing with more citations for the bibliography at the end.  Add other entries into the list here if you'd like them to appear in the bibliography even if they weren't explicitly cited in the document.
+-->
+
+---
+nocite: | 
+  @angel2000, @angel2001, @angel2002a
+...
+
+
+
+<!--chapter:end:99-references.Rmd-->
+
