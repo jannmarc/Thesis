@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  31 MAY 2020 21:03
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.5.20)  31 MAY 2020 21:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1323,24 +1323,34 @@ LaTeX Warning: Reference `tab:table3' on page 10 undefined on input line 475.
 
 
 Package longtable Warning: Column widths have changed
-(longtable)                in table 3.1 on input line 484.
+(longtable)                in table 3.1 on input line 490.
 
 
-! LaTeX Error: Environment tablenotes undefined.
+Package longtable Warning: Column widths have changed
+(longtable)                in table 3.2 on input line 506.
+
+
+LaTeX Warning: Reference `tab:table4' on page 10 undefined on input line 514.
+
+
+LaTeX Warning: Reference `tab:table5' on page 10 undefined on input line 517.
+
+
+! LaTeX Error: Unknown float option `H'.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.486 \begin{tablenotes}
-                         
+l.518 \begin{table}[H]
+                       
 Here is how much of TeX's memory you used:
- 25612 strings out of 481249
- 464538 string characters out of 5922349
+ 25615 strings out of 481249
+ 464559 string characters out of 5922349
  1164255 words of memory out of 5000000
- 42796 multiletter control sequences out of 15000+600000
+ 42799 multiletter control sequences out of 15000+600000
  534487 words of font info for 58 fonts, out of 8000000 for 9000
  15 hyphenation exceptions out of 8191
- 61i,5n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,7n,123p,1159b,790s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Marc-Macarulay.pdf (15 pages).

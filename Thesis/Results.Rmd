@@ -33,6 +33,5 @@ PHA_A<-readr::read_csv("PHA_A.csv", col_types = readr::cols())
 PHA<-readr::read_csv("PHA.csv", col_types = readr::cols())
 
 knitr::kable(
-list(PHA,PHA_A),format = "latex", booktabs= F)%>%
-  kable_styling(full_width = F)
+list(PHA,PHA_A),format = "latex", booktabs= F)
 ```
