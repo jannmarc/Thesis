@@ -7,6 +7,8 @@ The analysis of this study was conducted on a dataset compiled from the King Cou
 ## Data Sources
 In an effort to reduce fragmented data siloes across different sectors, the DASHH partnership was formed in 2016 between Public Health - Seattle and King County, and two public housing authories, King County Housing Authority and Seattle Housing Authority. The primary objectives for DASHH were to join health and housing administrative data together to inform and measure future interventions, relating to policy, outreach, and program evaluation that would improve the health of King County residents, as well as to disseminate actionable data with key health and housing stakeholders.
 
+KCHA provides housing assistance to families and individuals that earn less than the county median income to approximately 55,000 people in the King County area. While SHA predominatly focuses on the greater Seattle area, with nearly 35,000 people scattered throughout 400 sites across the city.
+
 The housing data provided by both KCHA and SHA originated from the US Department of Housing and Urban Development (HUD). This data source contained elements that included demographic information and period of enrollment for families and individuals. Claims and enrollment data for Medicaid and Medicare were from PHSKC which was provided by Washington Health Care Authority (HCA). Enrollment data contained information on who was receiving health insurance benefits. Claims data provided elements such as diagnosis codes and these were used to identify acute events and chronic conditions. The separated  health and housing data sources were linked together by a unique identifier ID. Further detail on the process of joinging data can be found in the King County Data Across Sectors for Housing and Health, 2018 Report [@PHSKC2018].
 
 ## Study Population
@@ -21,7 +23,8 @@ The exposure variable for this study was public housing assistance status. This 
 * Public housing properties and units - subsidized housing managed by PHAs
 * Project-based vouchers - subsidized housing units not managed by PHAs
 
-Responses on the HUD-50058 form were combined into a composite public housing binary variable. Study participants that were not enrolled in any of the listed housing assistance programs were coded as 0 for PHA status. Whereas those responses that contained any of the 3 types of housing assistance was categorized into the PHA group.
+Responses on the HUD-50058 form were combined into a composite public housing binary variable. Study participants that were not enrolled in any of the listed housing assistance programs were not placed in the PHA category. Whereas those responses that contained any of the 3 types of housing assistance was categorized into the PHA group.
+
 
 ### Outcome Variable
 The outcome variable for this study was diabetes status. This was defined using the Centers for Medicare and Medicaid Services (CMS) Chronic Conditions Warehouse (CCW) algorithm [@CMS2020]. According to the CCW, a participant meets the criteria if they have at least 1 inpatient, skilled nursing facility, home health agency visit or 2 hospital outpatient or carrier claims with diabetes diagnoses codes as outlined by the chronic conditions reference list within the last 2 years[@CMS2020]. This definition does not specify diabetes variant but instead accounts for any type diabetes diagnoses. The diabetes status outcome variable was dichotomous, given a 0 or 1. Those that did meet the CCW algorithm were coded into the diabetes group and those that met the criteria were categorized into the diabetes group.

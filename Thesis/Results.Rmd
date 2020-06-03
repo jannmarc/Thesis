@@ -8,7 +8,7 @@ Additionally, the population age distribution were different between PHA status,
 
 
 ## Public Housing and Diabetes
-For the primary analysis, the association between diabetes status and public housing assistance, the crude model showed that the odds ratio of having diabetes was 1.34 fold greater for those receiving public housing assistance (See Table \@ref(tab:table2)). This effect increased in the adjusted model, PHA residents were 94% more likely to meet the definition of diabetes compared to those that were non-PHA residents (See Table \@ref(tab:table3)).
+For the primary analysis, the association between diabetes status and public housing assistance, the crude model showed that the odds ratio of having diabetes was 1.34 fold greater for those receiving public housing assistance (See Table \@ref(tab:table2)). This effect increased in the adjusted model when the potential confounders were added, PHA residents were 94% more likely to meet the definition of diabetes compared to those that were non-PHA residents (See Table \@ref(tab:table3)).
 
 Housing Status | Unadjusted        | Adjusted                
 ---------------|------------------|-----------------               
