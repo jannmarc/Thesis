@@ -13,8 +13,6 @@ The housing data originated from both KCHA and SHA extracted from a standradized
 
 ## Study Population
 The study population was participants that were enrolled in either Medicare or Medicaid programs. Further eligibility for study participation included King County, Washington residency and at least 11 months of Medicare or Medicaid coverage in 2017. The 11 month minimum coverage restriction provides a more complete picture of healthcare usage in 2017, reducing the artifical inflation of the eligble population with people that had little chance of meeting the diabetes definiton. The overall number of participants derived from the DASHH dataset totaled 585,372.
-<br />
-<br />
 
 ### Exposure Variable
 The exposure variable for this study was public housing assistance status. This was extracted from the HUD-50058 form which was provided by the PHAs. The HUD-50058 form provides information on families that participate in public housing or Section 8 rental subsidy programs [@HUD2020]. Housing assistance is separated into 3 main types:
@@ -25,13 +23,11 @@ The exposure variable for this study was public housing assistance status. This 
 
 Responses on the HUD-50058 form were combined into a composite public housing binary variable. Study participants that were not enrolled in any of the listed housing assistance programs were not placed in the PHA category. Whereas d any of the 3 types of housing assistance were categorized into the PHA group.
 
-
 ### Outcome Variable
 The outcome variable for this study was diabetes status. This was defined using the Centers for Medicare and Medicaid Services (CMS) Chronic Conditions Warehouse (CCW) algorithm [@CMS2020]. According to the CCW, a participant meets the criteria if they have at least 1 inpatient, skilled nursing facility, home health agency visit or 2 hospital outpatient or carrier claims with diabetes diagnoses codes as outlined by the chronic conditions reference list within the last 2 years[@CMS2020]. This definition does not specify diabetes variant but instead accounts for any type diabetes diagnoses. The diabetes status outcome variable was dichotomous.
 
 ### Potential Confounders
 Potential confounders were identified based on literature review. This study considers age, race and ethnicity and gender as potential confounding variables. Each of these variables were selected due to the increased baseline risk for participants to be either in public housing or have diabetes. It is known that diabetes is an age-related disease, with a higher risk for older populations [@Selvin2013]. Age was presented as a discrete variable for the participants age in 2017. Similarly, according to CDC data, racial minority groups may be differentially at risk for both type 1 and type 2 diabetes compared to their white counterparts [@Divers2020 ; @CDC2020]. Although the discrete variable for age was used in the statistical analyses, age is presented ategorically in the descriptive analyses for a simpler distribution description. Mean and median age were also shown for each category. Race and ethnicity variable was defined categorically and included: American Indians/Alaska Natives, Asian, Asian Pacific Islander, Black/African American, Latino, Multiple, Native Hawaiian and Pacific Islander, Other, Unknown, and White. Due to the limitations of the how Medicare data categorizes race, this study categorized Asian Pacific Islander as a distinct group from the other seperate groups of Asian and Native Hawaiian and Pacific Islander. Gender was selected because both psychosocial and biological factors are responsible for sex and gender diabetes risk differences [@Kautzky-Willer2016]. Gender was grouped categorically and included: Female, Male, and Multiple.
-
 
 ## Analyses
 For the statistical analyses, logistic regression models were fitted to assess the risk of diabetes status in relation to public housing assistance status. This analysis is well-suited for this study because logistic regression analyses allows for measuring the association of an effect towards a binomial response variable by combining multiple variables to avoid confounding [@Sperandei2014].
