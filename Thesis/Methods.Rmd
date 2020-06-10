@@ -21,7 +21,7 @@ The exposure variable for this study was public housing assistance status. This 
 * Public housing properties and units - subsidized housing managed by PHAs
 * Project-based vouchers - subsidized housing units not managed by PHAs
 
-Responses on the HUD-50058 form were combined into a composite public housing binary variable. Study participants that were not enrolled in any of the listed housing assistance programs were not placed in the PHA category. Whereas d any of the 3 types of housing assistance were categorized into the PHA group.
+Responses on the HUD-50058 form were combined into a composite public housing binary variable. Study participants that were not enrolled in any of the listed housing assistance programs were not placed in the PHA category. Whereas any of the 3 types of housing assistance were categorized into the PHA group.
 
 ### Outcome Variable
 The outcome variable for this study was diabetes status. This was defined using the Centers for Medicare and Medicaid Services (CMS) Chronic Conditions Warehouse (CCW) algorithm [@CMS2020]. According to the CCW, a participant meets the criteria if they have at least 1 inpatient, skilled nursing facility, home health agency visit or 2 hospital outpatient or carrier claims with diabetes diagnoses codes as outlined by the chronic conditions reference list within the last 2 years[@CMS2020]. This definition does not specify diabetes variant but instead accounts for any type diabetes diagnoses. The diabetes status outcome variable was dichotomous.
