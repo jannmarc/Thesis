@@ -8,7 +8,7 @@ In the primary analysis, the association between diabetes status and public hous
 
 Housing Status | Unadjusted        | Adjusted                
 ---------------|------------------|-----------------               
-Non-PHA        | Referent         | Referent                    
+Non-PHA        | Reference         | Reference                    
 PHA            | 1.34 (CI: 1.31-1.38) | 1.94 (CI: 1.88-1.99)    
 Table: (\#tab:PHA) Association between PHA Status and Diabetes
 
