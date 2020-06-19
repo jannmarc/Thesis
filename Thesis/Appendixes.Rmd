@@ -30,7 +30,7 @@ table2<-readr::read_csv("diabetes_crude_test_Output.csv", col_types = readr::col
 table2%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Crude PHA Regression Model")%>%
   kable_styling(font_size =  12 , full_width = T)%>%
-  footnote(general = "Reference groups were Female and AI/AN"
+  footnote(general = "Reference groups were Female and AI/AN")
 
 ```
 
@@ -54,5 +54,5 @@ table5<-readr::read_csv("pha_agency_adj_output.csv", col_types = readr::cols())
 table5%>%
 knitr::kable(format = "latex", booktabs= T, caption= "Adjusted PHA Agency Regression Model")%>%
   kable_styling(font_size =  12 , full_width = T)%>%
-  footnote(general = "Reference groups were Female and AI/AN"
+  footnote(general = "Reference groups were Female and AI/AN")
 ```
